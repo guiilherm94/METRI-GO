@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { Metrica } from '@/lib/supabase'
 import { calcularMetricas, formatarMoeda, formatarPercentual } from '@/lib/calculations'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts'
@@ -9,7 +10,25 @@ interface DashboardProps {
 }
 
 export default function Dashboard({ metricas }: DashboardProps) {
-  const totais = metricas.reduce((acc, m) => {
+  const [dataInicio, setDataInicio] = useState('')
+  const [dataFim, setDataFim] = useState('')
+
+  const metricasFiltradas = metricas.filter(m => {
+    const dataMetrica = new Date(m.dia)
+    const inicio = dataInicio ? new Date(dataInicio) : null
+    const fim = dataFim ? new Date(dataFim) : null
+
+    if (inicio && dataMetrica < inicio) return false
+    if (fim && dataMetrica > fim) return false
+    return true
+  })
+
+  const limparFiltros = () => {
+    setDataInicio('')
+    setDataFim('')
+  }
+
+  const totais = metricasFiltradas.reduce((acc, m) => {
     const calc = calcularMetricas(m)
     return {
       investimento: acc.investimento + m.valor_usado,
@@ -40,7 +59,7 @@ export default function Dashboard({ metricas }: DashboardProps) {
   const convCompra = totais.inicioCompra > 0 ? (totais.comprasConfirmadas / totais.inicioCompra) * 100 : 0
   const ticketMedio = totais.comprasConfirmadas > 0 ? totais.faturamento / totais.comprasConfirmadas : 0
 
-  const dadosPorDia = metricas
+  const dadosPorDia = metricasFiltradas
     .sort((a, b) => new Date(a.dia).getTime() - new Date(b.dia).getTime())
     .map(m => {
       const calc = calcularMetricas(m)
@@ -53,10 +72,45 @@ export default function Dashboard({ metricas }: DashboardProps) {
       }
     })
 
-  const mediaComprasPorDia = totais.comprasConfirmadas / (metricas.length || 1)
+  const mediaComprasPorDia = totais.comprasConfirmadas / (metricasFiltradas.length || 1)
 
   return (
     <div className="space-y-6">
+      <div className="bg-gray-800 p-6 rounded-lg">
+        <h2 className="text-xl font-bold text-white mb-4">Filtros</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <label className="block text-gray-300 mb-2">Data Início</label>
+            <input
+              type="date"
+              value={dataInicio}
+              onChange={(e) => setDataInicio(e.target.value)}
+              className="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:border-blue-500 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label className="block text-gray-300 mb-2">Data Fim</label>
+            <input
+              type="date"
+              value={dataFim}
+              onChange={(e) => setDataFim(e.target.value)}
+              className="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:border-blue-500 focus:outline-none"
+            />
+          </div>
+          <div className="flex items-end">
+            <button
+              onClick={limparFiltros}
+              className="w-full bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded transition"
+            >
+              Limpar Filtros
+            </button>
+          </div>
+        </div>
+        <div className="mt-4 text-gray-400 text-sm">
+          Mostrando {metricasFiltradas.length} de {metricas.length} registros
+        </div>
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="bg-gray-800 p-6 rounded-lg">
           <h3 className="text-gray-400 text-sm mb-2">Investimento</h3>

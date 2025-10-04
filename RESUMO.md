@@ -19,11 +19,12 @@ Senha: molivesutter@gmail.com
 - app/login/page.tsx = Página de login
 - app/produtos/page.tsx = Lista de produtos
 - app/produto/[id]/page.tsx = Detalhes do produto + métricas
+- app/dashboard/page.tsx = Dashboard global (NOVO!)
 
 ### Componentes (src/components/)
 - ImportExcel.tsx = Componente de importação de Excel
 - MetricasTable.tsx = Tabela de métricas com edição
-- Dashboard.tsx = Dashboard com gráficos e funil
+- Dashboard.tsx = Dashboard com gráficos, funil e filtros (ATUALIZADO!)
 
 ### Bibliotecas (src/lib/)
 - supabase.ts = Configuração do Supabase + tipos
@@ -36,11 +37,28 @@ Senha: molivesutter@gmail.com
 
 1. Usuário faz login (credenciais fixas)
 2. Vê lista de produtos
-3. Cria novo produto (só nome)
-4. Abre o produto
-5. Importa Excel do Facebook
-6. Edita métricas manuais (compras, faturamento, reembolso)
-7. Visualiza dashboard com todos os dados
+3. Pode acessar o Dashboard Global (ver todos os produtos juntos)
+4. Cria novo produto (só nome)
+5. Abre o produto
+6. Importa Excel do Facebook
+7. Edita métricas manuais (compras, faturamento, reembolso)
+8. Visualiza dashboard do produto com filtros de período
+9. Volta para Dashboard Global para análise comparativa
+
+## FUNCIONALIDADES DE FILTROS
+
+### Dashboard do Produto
+- Filtro por Data Início
+- Filtro por Data Fim
+- Botão "Limpar Filtros"
+- Contador de registros filtrados
+
+### Dashboard Global (NOVO!)
+- Filtro por Produto (todos ou específico)
+- Filtro por Data Início
+- Filtro por Data Fim
+- Visualização consolidada de todos os produtos
+- Análise comparativa entre produtos
 
 ## MÉTRICAS CALCULADAS AUTOMATICAMENTE
 
@@ -79,6 +97,14 @@ npm start
 4. Adicione variáveis de ambiente no Vercel
 5. Deploy automático!
 
+## PÁGINAS DO SISTEMA
+
+- / = Redireciona para login ou produtos
+- /login = Tela de login
+- /produtos = Lista de produtos + botão Dashboard Global
+- /produto/[id] = Dashboard e métricas de um produto específico
+- /dashboard = Dashboard global com todos os produtos (NOVO!)
+
 ## TECNOLOGIAS
 
 - Next.js 14 (React Framework)
@@ -88,3 +114,12 @@ npm start
 - Recharts (Gráficos)
 - XLSX (Importação Excel)
 - Vercel (Deploy)
+
+## NOVIDADES NESTA VERSÃO
+
+✅ Dashboard Global - visualize métricas de todos os produtos juntos
+✅ Filtro por Produto - escolha qual produto analisar no dashboard global
+✅ Filtros de Data - filtre por período em ambos os dashboards
+✅ Contador de Registros - veja quantos registros estão sendo exibidos após filtros
+✅ Botão Limpar Filtros - remova todos os filtros rapidamente
+✅ Análise Comparativa - compare performance de diferentes produtos e períodos

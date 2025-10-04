@@ -133,12 +133,36 @@ git push -u origin main
    - Reembolso
 3. Clique em "Salvar"
 
-### VER DASHBOARD
+### VER DASHBOARD DO PRODUTO
 1. Clique na aba "Dashboard"
 2. Visualize:
    - Resumo de métricas
    - Funil de conversão
    - Gráficos por dia
+3. **NOVO:** Use os filtros de Data Início e Data Fim para filtrar por período
+4. Clique em "Limpar Filtros" para remover os filtros
+
+### DASHBOARD GLOBAL (NOVO!)
+1. Na tela de produtos, clique em "Dashboard Global"
+2. Veja métricas de TODOS os produtos juntos
+3. Use o filtro "Filtro por Produto" para ver apenas um produto específico
+4. Use os filtros de data para filtrar por período
+5. Combine ambos os filtros para análises específicas
+
+## FUNCIONALIDADES DE FILTROS
+
+### Dashboard do Produto (dentro de cada produto)
+- **Filtro por Data Início:** Define a data inicial dos dados
+- **Filtro por Data Fim:** Define a data final dos dados
+- **Botão "Limpar Filtros":** Remove todos os filtros aplicados
+- Mostra quantos registros estão sendo exibidos (ex: "Mostrando 15 de 30 registros")
+
+### Dashboard Global (visão geral)
+- **Filtro por Produto:** Escolha ver todos os produtos ou apenas um específico
+- **Filtro por Data Início:** Define a data inicial dos dados
+- **Filtro por Data Fim:** Define a data final dos dados
+- **Botão "Limpar Filtros":** Remove filtros de data
+- Combine filtros de produto + período para análises detalhadas
 
 ## FORMATO DO EXCEL
 
@@ -172,6 +196,11 @@ O arquivo Excel deve conter as seguintes colunas EXATAS:
 ### Erro ao fazer deploy na Vercel
 - Certifique-se de que adicionou as variáveis de ambiente
 - Tente fazer rebuild: Settings > Deployments > ... > Redeploy
+
+### Filtros não funcionam
+- Certifique-se de que as datas estão no formato correto
+- Verifique se há dados no período selecionado
+- Use "Limpar Filtros" e tente novamente
 
 ## ATUALIZAÇÕES FUTURAS
 
