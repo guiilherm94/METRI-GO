@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema LTG - Descubra Seu Lucro Real</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header/Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+            opacity: 0.95;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 18px 40px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: #ff6b35;
+            color: white;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: #ff5722;
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(255, 107, 53, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        .price-tag {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 0.9rem;
+        }
+
+        .stars {
+            color: #ffc107;
+        }
+
+        /* Dashboard Preview */
+        .dashboard-preview {
+            margin-top: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dashboard-preview img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Pain Points Section */
+        .pain-points {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 60px;
+            color: #2d3748;
+        }
+
+        .pain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .pain-card {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 5px solid #ff6b35;
+            transition: all 0.3s ease;
+        }
+
+        .pain-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .pain-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+
+        .pain-card p {
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-top: 40px;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+
+        .benefits .section-title {
+            color: white;
+        }
+
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .benefit-card {
+            text-align: center;
+        }
+
+        .benefit-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .benefit-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .benefit-card p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 800;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .step h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+
+        .step p {
+            color: #4a5568;
+            font-size: 1.1rem;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 80px 20px;
+            background: #f7fafc;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .feature-item {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+
+        .feature-item p {
+            color: #4a5568;
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        /* Differentiators */
+        .differentiators {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .diff-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .diff-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .diff-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .diff-card p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 20px;
+            background: #f7fafc;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .testimonial {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .testimonial-text {
+            font-size: 1.1rem;
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .author-info h4 {
+            font-size: 1.1rem;
+            color: #2d3748;
+        }
+
+        .author-info p {
+            font-size: 0.9rem;
+            color: #718096;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .pricing .section-title {
+            color: white;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .pricing-card {
+            background: white;
+            color: #2d3748;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .pricing-card.popular {
+            border: 3px solid #ff6b35;
+        }
+
+        .popular-badge {
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            background: #ff6b35;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .pricing-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .pricing-card .subtitle {
+            color: #718096;
+            margin-bottom: 30px;
+        }
+
+        .price {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #667eea;
+            margin-bottom: 30px;
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .pricing-features li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .pricing-features li:last-child {
+            border-bottom: none;
+        }
+
+        .check-icon {
+            color: #48bb78;
+            font-weight: 700;
+        }
+
+        .savings {
+            background: #ffeaa7;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 20px;
+        }
+
+        /* Guarantee */
+        .guarantee {
+            padding: 80px 20px;
+            background: white;
+            text-align: center;
+        }
+
+        .guarantee-box {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #f7fafc;
+            padding: 50px;
+            border-radius: 20px;
+            border: 3px dashed #48bb78;
+        }
+
+        .guarantee-icon {
+            font-size: 5rem;
+            margin-bottom: 20px;
+        }
+
+        .guarantee-box h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2d3748;
+        }
+
+        .guarantee-box p {
+            font-size: 1.2rem;
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        /* FAQ */
+        .faq {
+            padding: 80px 20px;
+            background: #f7fafc;
+        }
+
+        .faq-list {
+            max-width: 800px;
+            margin: 60px auto 0;
+        }
+
+        .faq-item {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .faq-question {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .faq-answer {
+            color: #4a5568;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Urgency Section */
+        .urgency {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #ff6b35 0%, #ff5722 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .urgency h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .urgency p {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Final CTA */
+        .final-cta {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .final-cta p {
+            font-size: 1.5rem;
+            margin-bottom: 50px;
+        }
+
+        .cta-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: #1a202c;
+            color: white;
+            padding: 60px 20px 30px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section a {
+            color: #a0aec0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #a0aec0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-in {
+            animation: fadeInUp 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">
+                🔥 Mais de 15.000 empreendedores já descobriram a verdade
+            </div>
+            <h1>Você Tá Lucrando ou Só Trabalhando de Graça?</h1>
+            <p class="subtitle">O sistema brutal que mostra seu lucro REAL em minutos — sem ilusão, sem mentira, só a verdade nua sobre quanto REALMENTE sobra no seu bolso depois de pagar tudo.</p>
+
+            <div class="cta-buttons">
+                <a href="#pricing" class="btn btn-primary">Descobrir Meu Lucro Real Agora</a>
+                <a href="#how-it-works" class="btn btn-secondary">Assistir Demo</a>
+            </div>
+
+            <div class="price-tag">Apenas R$ 10,00</div>
+
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span>4.9/5 baseado em 15.847 avaliações</span>
+            </div>
+
+            <div class="dashboard-preview">
+                📊 <strong>Dashboard do Sistema LTG</strong><br>
+                <small>Visualização do seu lucro real em tempo real</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section class="pain-points">
+        <div class="container">
+            <h2 class="section-title">Você Reconhece Alguma Dessas Situações?</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 60px; color: #4a5568;">Se você já sentiu isso, não está sozinho. São as dores mais comuns de quem trabalha sem saber se está lucrando...</p>
+
+            <div class="pain-grid">
+                <div class="pain-card">
+                    <h3>"Vendo muito mas não vejo dinheiro"</h3>
+                    <p>Você fecha o mês com a conta cheia de movimento, mas quando vai ver quanto SOBROU pra você... cadê o lucro? Sumiu. Você trabalhou de graça o mês inteiro.</p>
+                </div>
+
+                <div class="pain-card">
+                    <h3>"Será que meu preço tá certo?"</h3>
+                    <p>Você vive naquela dúvida matadora: será que cobrei certo? Será que esqueci alguma despesa? Será que tô perdendo dinheiro sem saber?</p>
+                </div>
+
+                <div class="pain-card">
+                    <h3>"Tenho medo de aumentar o preço"</h3>
+                    <p>Você SABE que deveria cobrar mais, mas tem medo de perder cliente. Aí fica preso seguindo o preço da concorrência, ganhando migalhas.</p>
+                </div>
+
+                <div class="pain-card">
+                    <h3>"Matemática não é meu forte"</h3>
+                    <p>Você assiste vídeo de precificação 10 vezes e ainda não entende. Fórmula, markup, percentual invertido... você se perde e desiste. Continua cobrando no achismo.</p>
+                </div>
+
+                <div class="pain-card">
+                    <h3>"Descobri tarde demais que estava no prejuízo"</h3>
+                    <p>Quando finalmente fez as contas direito (ou o contador mostrou), descobriu a bomba: você estava vendendo ABAIXO do custo. Trabalhando de graça há meses.</p>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                ⚠️ "87% dos empreendedores descobrem que estavam perdendo dinheiro"<br>
+                <small style="font-size: 1rem; font-weight: 400;">A maioria nem sabe onde está o problema. Até descobrir, continua queimando dinheiro todo dia.</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Imagina Saber Exatamente Quanto Você Tá Lucrando...</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 60px;">Não seria libertador ter certeza absoluta de que cada venda coloca dinheiro NO SEU BOLSO?</p>
+
+            <div class="benefit-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Lucro Real Visível</h3>
+                    <p>Ver na tela, em números claros, quanto SOBRA de verdade depois de pagar tudo. Sem ilusão, sem surpresa.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">💤</div>
+                    <h3>Dormir Tranquilo</h3>
+                    <p>Saber que seu preço cobre TODAS as despesas (até as que você esquecia) e ainda deixa lucro.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Decidir Com Segurança</h3>
+                    <p>Poder dar desconto sem medo de quebrar. Aumentar preço sabendo que faz sentido. Tomar decisão baseada em DADOS, não no achismo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Como Funciona (3 Passos Simples)</h2>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">📝</div>
+                    <h3>1. Cadastre Seus Produtos</h3>
+                    <p>Produto revendido? Só coloca o custo. Produto fabricado? Sistema calcula ingrediente por ingrediente automaticamente.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">➕</div>
+                    <h3>2. Adicione Suas Despesas</h3>
+                    <p>Aluguel, luz, impostos, embalagem... tudo. Sistema divide entre seus produtos sozinho. Você não faz nenhuma conta.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">📊</div>
+                    <h3>3. Veja Seu Lucro Real</h3>
+                    <p>Dashboard mostra tudo: margem, lucro real, ponto de equilíbrio, preço sugerido. Tudo mastigado, pronto pra usar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiators -->
+    <section class="differentiators">
+        <div class="container">
+            <h2 class="section-title">Por Que o Sistema LTG é Diferente de Tudo?</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 60px; color: #4a5568;">Não é planilha. Não é curso. Não é consultoria cara. É um SISTEMA que faz as contas PRA VOCÊ.</p>
+
+            <div class="diff-grid">
+                <div class="diff-card">
+                    <h3><span>🎯</span> Calcula Receitas Complexas Automaticamente</h3>
+                    <p>Faz bolo que rende 50 unidades? Tempero que dá pra fazer 200 potes? Sistema divide o custo POR UNIDADE sozinho. Você só lista os ingredientes.</p>
+                </div>
+
+                <div class="diff-card">
+                    <h3><span>💡</span> Rateio Inteligente de Despesas Fixas</h3>
+                    <p>Como dividir aluguel entre 500 produtos? Sistema faz isso automaticamente baseado no faturamento. Sem dor de cabeça, sem calculadora.</p>
+                </div>
+
+                <div class="diff-card">
+                    <h3><span>🏆</span> Teste de Competitividade Incluído</h3>
+                    <p>Descubra se você PODE cobrar mais caro que a concorrência. Sistema analisa 5 fatores e diz: SIM ou NÃO. Acaba a dúvida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">O Que Você Ganha Com o Sistema LTG</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 60px; color: #4a5568;">Cada funcionalidade resolve uma dor real que te impede de lucrar de verdade</p>
+
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">✅</div>
+                    <h3>Cadastro ilimitado de produtos</h3>
+                    <p>Revendidos OU fabricados. Quantos você quiser. Sem limite.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📋</div>
+                    <h3>Ficha técnica automática</h3>
+                    <p>Lista ingredientes, sistema calcula custo por unidade. Mesmo que renda 1000 peças.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📊</div>
+                    <h3>Dashboard executivo completo</h3>
+                    <p>Faturamento, margem, lucro real, ponto de equilíbrio. Tudo visual, tudo claro.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🧮</div>
+                    <h3>Calculadora de competitividade</h3>
+                    <p>Responde 5 perguntas, sistema diz se você pode cobrar mais caro.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🛒</div>
+                    <h3>Preços para marketplaces</h3>
+                    <p>Mercado Livre, Shopee... Sistema calcula preço que cobre taxa e ainda lucra.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🏅</div>
+                    <h3>Top 10 produtos mais lucrativos</h3>
+                    <p>Veja quais produtos te dão mais margem e quais custam mais. Decida onde focar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">O Que Quem Já Usou Está Falando</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 60px; color: #4a5568;">Pessoas reais que descobriram a verdade sobre seus negócios</p>
+
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p class="testimonial-text">"Descobri que estava vendendo no prejuízo há 6 meses. Corrigi os preços e agora sobra R$ 3.500 por mês que antes sumia."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div class="author-info">
+                            <h4>Mariana Costa</h4>
+                            <p>Confeitaria em SP</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <p class="testimonial-text">"Finalmente entendi quanto custa cada produto que fabrico. O sistema dividiu tudo automaticamente. Economizei 15 horas de planilha."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RS</div>
+                        <div class="author-info">
+                            <h4>Roberto Silva</h4>
+                            <p>E-commerce de Cosméticos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <p class="testimonial-text">"Tinha medo de cobrar mais caro. O teste de competitividade mostrou que posso. Aumentei 40% e não perdi cliente."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div class="author-info">
+                            <h4>Juliana Mendes</h4>
+                            <p>Salão de Beleza em BH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Escolha Seu Plano</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 60px;">Investimento que se paga na primeira venda corrigida</p>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Sistema LTG</h3>
+                    <p class="subtitle">Tudo que você precisa pra descobrir seu lucro real</p>
+                    <div class="price">R$ 10,00</div>
+                    <a href="#checkout" class="btn btn-primary" style="width: 100%;">Começar Agora por R$ 10</a>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">✓</span> Sistema completo de custos e precificação</li>
+                        <li><span class="check-icon">✓</span> Cadastro ilimitado de produtos</li>
+                        <li><span class="check-icon">✓</span> Ficha técnica automática</li>
+                        <li><span class="check-icon">✓</span> Rateio de despesas fixas</li>
+                        <li><span class="check-icon">✓</span> Dashboard executivo</li>
+                        <li><span class="check-icon">✓</span> Calculadora de competitividade</li>
+                        <li><span class="check-icon">✓</span> Preços para marketplaces</li>
+                        <li><span class="check-icon">✓</span> Acesso vitalício</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card popular">
+                    <span class="popular-badge">Mais Escolhido</span>
+                    <h3>Sistema LTG + Acelerador</h3>
+                    <p class="subtitle">Sistema completo + bônus matadores</p>
+                    <div class="price">R$ 27,00</div>
+                    <div class="savings">Economia de R$ 47 nos bônus</div>
+                    <a href="#checkout" class="btn btn-primary" style="width: 100%;">Quero o Completo por R$ 27</a>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">✓</span> <strong>TUDO do plano anterior</strong></li>
+                        <li><span class="check-icon">✓</span> Guia "Como Aumentar Preço Sem Perder Cliente"</li>
+                        <li><span class="check-icon">✓</span> Checklist "27 Despesas Que Você Esquece"</li>
+                        <li><span class="check-icon">✓</span> Tabela "Margem Ideal Por Segmento"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-box">
+                <div class="guarantee-icon">🛡️</div>
+                <h2>Garantia Incondicional de 7 Dias</h2>
+                <p>Use o sistema por 7 dias. Se não descobrir pelo menos UMA despesa que você estava esquecendo (e que estava comendo seu lucro), devolvo seu dinheiro. Sem perguntas, sem burocracia.</p>
+                <p style="font-weight: 700; margin-top: 20px;">Você não tem absolutamente NADA a perder.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 60px; color: #4a5568;">Tudo que você precisa saber antes de começar</p>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question"><span>❓</span> O sistema funciona pro meu tipo de negócio?</h3>
+                    <p class="faq-answer">Sim! O Sistema LTG funciona para qualquer negócio: produtos revendidos, fabricados, serviços. Ele se adapta ao seu modelo de receita.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question"><span>❓</span> Preciso instalar alguma coisa?</h3>
+                    <p class="faq-answer">Não! O sistema funciona 100% online. Você acessa de qualquer lugar, pelo computador ou celular.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question"><span>❓</span> É difícil de usar?</h3>
+                    <p class="faq-answer">Muito fácil! Se você sabe digitar, você consegue usar. Interface simples, sem complicação. Foi feito justamente pra quem não é expert em matemática.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question"><span>❓</span> E se eu não souber todas as minhas despesas?</h3>
+                    <p class="faq-answer">Por isso o bônus "Checklist de 27 Despesas Que Você Esquece" existe! Ele te lembra de TUDO que você precisa incluir.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question"><span>❓</span> Posso usar pra calcular preço de marketplace?</h3>
+                    <p class="faq-answer">SIM! O sistema já calcula automaticamente os preços considerando as taxas do Mercado Livre, Shopee e outros marketplaces.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question"><span>❓</span> Tem suporte se eu travar em alguma coisa?</h3>
+                    <p class="faq-answer">Sim! Temos suporte por email e WhatsApp para te ajudar sempre que precisar.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question"><span>❓</span> É pagamento único ou assinatura?</h3>
+                    <p class="faq-answer">Pagamento ÚNICO. Você paga uma vez e usa pra sempre. Sem mensalidade, sem pegadinha.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency -->
+    <section class="urgency">
+        <div class="container">
+            <h2>⚠️ Aviso Importante Sobre o Preço</h2>
+            <p>Este preço de R$ 10,00 é garantido APENAS agora.</p>
+            <p>Podemos alterar o valor a qualquer momento, sem aviso prévio. Se você está vendo essa oferta, aproveite enquanto está disponível.</p>
+            <a href="#pricing" class="btn btn-primary">Garantir Pelo Preço Atual</a>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>A Pergunta é Simples:</h2>
+            <p>Você quer continuar ACHANDO que tá lucrando...<br>Ou quer SABER com certeza absoluta?</p>
+
+            <div class="cta-box">
+                <a href="#pricing" class="btn btn-primary" style="width: 100%; margin-bottom: 20px;">Descobrir Meu Lucro Real Agora</a>
+                <p style="font-size: 1rem; opacity: 0.9; margin: 0;">Sistema completo • Acesso imediato • Garantia de 7 dias</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre</h4>
+                <ul>
+                    <li><a href="#about">Sobre o Sistema</a></li>
+                    <li><a href="#how">Como Funciona</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#terms">Termos de Uso</a></li>
+                    <li><a href="#privacy">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#support">Suporte</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sistema LTG. Todos os direitos reservados.</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">Sistema desenvolvido para empreendedores que querem parar de trabalhar de graça e começar a lucrar de verdade.</p>
+        </div>
+    </footer>
+</body>
+</html>
