@@ -1,12 +1,9 @@
-import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Dashboard de Métricas',
-  description: 'Sistema de métricas Facebook Ads',
+  title: 'METRI-GO Streaming',
+  description: 'Seu tracker pessoal de filmes',
 }
 
 export default function RootLayout({
@@ -16,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   )
 }
