@@ -86,6 +86,12 @@ export default function Produtos() {
           <h1 className="text-4xl font-bold text-white">Produtos</h1>
           <div className="flex gap-4">
             <button
+              onClick={() => router.push('/filmes-animacao')}
+              className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded transition"
+            >
+              🎬 Filmes de Animação
+            </button>
+            <button
               onClick={() => router.push('/dashboard')}
               className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded transition"
             >
