@@ -13,101 +13,101 @@ export interface Movie {
 export const animationMovies: Movie[] = [
   {
     id: 'anim-1',
-    title: 'The Hunchback of Notre Dame',
+    title: 'O Corcunda de Notre Dame',
     year: 1996,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🔔',
     description: 'Animation, Drama, Family'
   },
   {
     id: 'anim-2',
-    title: 'James and the Giant Peach',
+    title: 'James e o Pêssego Gigante',
     year: 1996,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🍑',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-3',
-    title: 'Space Jam',
+    title: 'Space Jam: O Jogo do Século',
     year: 1996,
     category: 'animacao' as const,
     rating: 6.5,
-    poster: '🎬',
+    poster: '🏀',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-4',
-    title: 'The Swan Princess III',
+    title: 'A Princesa Encantada III',
     year: 1996,
     category: 'animacao' as const,
     rating: 5.5,
-    poster: '🎬',
+    poster: '🦢',
     description: 'Animation, Family, Fantasy'
   },
   {
     id: 'anim-5',
-    title: 'Beavis and Butt-Head Do America',
+    title: 'Beavis e Butt-Head Detonam a América',
     year: 1996,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '📺',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-6',
-    title: 'Aladdin and the King of Thieves',
+    title: 'Aladdin e os 40 Ladrões',
     year: 1996,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🧞',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-7',
-    title: 'All Dogs Go to Heaven 2',
+    title: 'Todos os Cães Merecem o Céu 2',
     year: 1996,
     category: 'animacao' as const,
     rating: 5.5,
-    poster: '🎬',
+    poster: '🐶',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-8',
-    title: 'The Pebble and the Penguin',
+    title: 'O Seixo e o Pinguim',
     year: 1996,
     category: 'animacao' as const,
     rating: 5.5,
-    poster: '🎬',
+    poster: '🐧',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-9',
-    title: 'Pinocchio\'s Revenge',
+    title: 'A Vingança de Pinóquio',
     year: 1996,
     category: 'animacao' as const,
     rating: 4.2,
-    poster: '🎬',
+    poster: '🤥',
     description: 'Drama, Fantasy, Horror'
   },
   {
     id: 'anim-10',
-    title: 'The Hunchback of Notre Dame',
+    title: 'O Corcunda de Notre Dame',
     year: 1996,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🔔',
     description: 'Animation, Drama, Family'
   },
   {
     id: 'anim-11',
-    title: 'Hercules',
+    title: 'Hércules',
     year: 1997,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '💪',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -116,79 +116,79 @@ export const animationMovies: Movie[] = [
     year: 1997,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '👸',
     description: 'Animation, Adventure, Drama'
   },
   {
     id: 'anim-13',
-    title: 'The Brave Little Toaster to the Rescue',
+    title: 'A Torradeira Valente: O Resgate',
     year: 1997,
     category: 'animacao' as const,
     rating: 5.9,
-    poster: '🎬',
+    poster: '🍞',
     description: 'Animation, Family'
   },
   {
     id: 'anim-14',
-    title: 'Cats Don\'t Dance',
+    title: 'Gatos Não Sabem Dançar',
     year: 1997,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🐱',
     description: 'Animation, Comedy, Family'
   },
   {
     id: 'anim-15',
-    title: 'Beauty and the Beast: The Enchanted Christmas',
+    title: 'A Bela e a Fera: O Natal Encantado',
     year: 1997,
     category: 'animacao' as const,
     rating: 6,
-    poster: '🎬',
+    poster: '🌹',
     description: 'Animation, Family, Fantasy'
   },
   {
     id: 'anim-16',
-    title: 'The Fearless Four',
+    title: 'Os Músicos de Bremen',
     year: 1997,
     category: 'animacao' as const,
     rating: 5.2,
-    poster: '🎬',
+    poster: '🎶',
     description: 'Animation, Comedy, Family'
   },
   {
     id: 'anim-17',
-    title: '101 Dalmatians II: Patch\'s London Adventure',
+    title: '101 Dálmatas II: A Aventura de Patch em Londres',
     year: 1997,
     category: 'animacao' as const,
     rating: 5.8,
-    poster: '🎬',
+    poster: '🐾',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-18',
-    title: 'Pippi Longstocking',
+    title: 'Píppi Meialonga',
     year: 1997,
     category: 'animacao' as const,
     rating: 5.8,
-    poster: '🎬',
+    poster: '👧',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-19',
-    title: 'The Beautician and the Beast',
+    title: 'Um Conto de Fadas',
     year: 1997,
     category: 'animacao' as const,
     rating: 5.4,
-    poster: '🎬',
+    poster: '💇',
     description: 'Comedy, Romance'
   },
   {
     id: 'anim-20',
-    title: 'Warriors of Virtue',
+    title: 'Guerreiros da Virtude',
     year: 1997,
     category: 'animacao' as const,
     rating: 4.6,
-    poster: '🎬',
+    poster: '🦘',
     description: 'Action, Adventure, Fantasy'
   },
   {
@@ -197,88 +197,88 @@ export const animationMovies: Movie[] = [
     year: 1998,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🐉',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-22',
-    title: 'A Bug\'s Life',
+    title: 'Vida de Inseto',
     year: 1998,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🐜',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-23',
-    title: 'The Prince of Egypt',
+    title: 'O Príncipe do Egito',
     year: 1998,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '👑',
     description: 'Animation, Adventure, Drama'
   },
   {
     id: 'anim-24',
-    title: 'Antz',
+    title: 'FormiguinhaZ',
     year: 1998,
     category: 'animacao' as const,
     rating: 6.5,
-    poster: '🎬',
+    poster: '🐜',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-25',
-    title: 'Quest for Camelot',
+    title: 'A Espada Mágica: A Lenda de Camelot',
     year: 1998,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '⚔️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-26',
-    title: 'The Rugrats Movie',
+    title: 'Rugrats: O Filme',
     year: 1998,
     category: 'animacao' as const,
     rating: 6.2,
-    poster: '🎬',
+    poster: '👶',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-27',
-    title: 'Kiki\'s Delivery Service',
+    title: 'O Serviço de Entregas da Kiki',
     year: 1998,
     category: 'animacao' as const,
     rating: 7.8,
-    poster: '🎬',
+    poster: '🧹',
     description: 'Animation, Family, Fantasy'
   },
   {
     id: 'anim-28',
-    title: 'The Land Before Time VI: The Secret of Saurus Rock',
+    title: 'Em Busca do Vale Encantado VI: O Segredo da Pedra Saurus',
     year: 1998,
     category: 'animacao' as const,
     rating: 5.9,
-    poster: '🎬',
+    poster: '🦕',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-29',
-    title: 'Pocahontas II: Journey to a New World',
+    title: 'Pocahontas II: Uma Jornada para o Novo Mundo',
     year: 1998,
     category: 'animacao' as const,
     rating: 4.9,
-    poster: '🎬',
+    poster: '🍂',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-30',
-    title: 'The Swan Princess: The Mystery of the Enchanted Kingdom',
+    title: 'A Princesa Encantada: O Mistério do Reino Encantado',
     year: 1998,
     category: 'animacao' as const,
     rating: 5.3,
-    poster: '🎬',
+    poster: '🦢',
     description: 'Animation, Family, Fantasy'
   },
   {
@@ -287,7 +287,7 @@ export const animationMovies: Movie[] = [
     year: 1999,
     category: 'animacao' as const,
     rating: 7.9,
-    poster: '🎬',
+    poster: '🤠',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -296,25 +296,25 @@ export const animationMovies: Movie[] = [
     year: 1999,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🦍',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-33',
-    title: 'The Iron Giant',
+    title: 'O Gigante de Ferro',
     year: 1999,
     category: 'animacao' as const,
     rating: 8.1,
-    poster: '🎬',
+    poster: '🤖',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-34',
-    title: 'South Park: Bigger, Longer & Uncut',
+    title: 'South Park: Maior, Melhor e Sem Cortes',
     year: 1999,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🤬',
     description: 'Animation, Comedy, Fantasy'
   },
   {
@@ -323,88 +323,88 @@ export const animationMovies: Movie[] = [
     year: 1999,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🎼',
     description: 'Animation, Family, Fantasy'
   },
   {
     id: 'anim-36',
-    title: 'Doug\'s 1st Movie',
+    title: 'Doug: O Filme',
     year: 1999,
     category: 'animacao' as const,
     rating: 5,
-    poster: '🎬',
+    poster: '📓',
     description: 'Animation, Comedy, Family'
   },
   {
     id: 'anim-37',
-    title: 'Pokemon: The First Movie',
+    title: 'Pokémon: O Filme - Mewtwo Contra-Ataca',
     year: 1999,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '⚡',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-38',
-    title: 'The King and I',
+    title: 'O Rei e Eu',
     year: 1999,
     category: 'animacao' as const,
     rating: 4.4,
-    poster: '🎬',
+    poster: '👑',
     description: 'Animation, Family, Fantasy'
   },
   {
     id: 'anim-39',
-    title: 'The Tigger Movie',
+    title: 'Tigrão: O Filme',
     year: 1999,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🐯',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-40',
-    title: 'Babar: King of the Elephants',
+    title: 'Babar: O Rei dos Elefantes',
     year: 1999,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '🐘',
     description: 'Animation, Family'
   },
   {
     id: 'anim-41',
-    title: 'Chicken Run',
+    title: 'A Fuga das Galinhas',
     year: 2000,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🐔',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-42',
-    title: 'The Emperor\'s New Groove',
+    title: 'A Nova Onda do Imperador',
     year: 2000,
     category: 'animacao' as const,
     rating: 7.4,
-    poster: '🎬',
+    poster: '🦙',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-43',
-    title: 'Dinosaur',
+    title: 'Dinossauro',
     year: 2000,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🦕',
     description: 'Animation, Adventure, Drama'
   },
   {
     id: 'anim-44',
-    title: 'The Tigger Movie',
+    title: 'Tigrão: O Filme',
     year: 2000,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🐯',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -413,52 +413,52 @@ export const animationMovies: Movie[] = [
     year: 2000,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🎼',
     description: 'Animation, Family, Fantasy'
   },
   {
     id: 'anim-46',
-    title: 'The Road to El Dorado',
+    title: 'O Caminho para El Dorado',
     year: 2000,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🗺️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-47',
-    title: 'Pokemon: The Movie 2000',
+    title: 'Pokémon: O Filme 2000',
     year: 2000,
     category: 'animacao' as const,
     rating: 6,
-    poster: '🎬',
+    poster: '⚡',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-48',
-    title: 'Rugrats in Paris: The Movie',
+    title: 'Rugrats em Paris: O Filme',
     year: 2000,
     category: 'animacao' as const,
     rating: 6.2,
-    poster: '🎬',
+    poster: '🗼',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-49',
-    title: 'An Extremely Goofy Movie',
+    title: 'Pateta 2: Radicalmente Pateta',
     year: 2000,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🛹',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-50',
-    title: 'The Little Mermaid II: Return to the Sea',
+    title: 'A Pequena Sereia II: O Retorno para o Mar',
     year: 2000,
     category: 'animacao' as const,
     rating: 5.5,
-    poster: '🎬',
+    poster: '🧜‍♀️',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -467,97 +467,97 @@ export const animationMovies: Movie[] = [
     year: 2001,
     category: 'animacao' as const,
     rating: 7.9,
-    poster: '🎬',
+    poster: '👹',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-52',
-    title: 'Monsters, Inc.',
+    title: 'Monstros S.A.',
     year: 2001,
     category: 'animacao' as const,
     rating: 8.1,
-    poster: '🎬',
+    poster: '👻',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-53',
-    title: 'Spirited Away',
+    title: 'A Viagem de Chihiro',
     year: 2001,
     category: 'animacao' as const,
     rating: 8.6,
-    poster: '🎬',
+    poster: '🐉',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-54',
-    title: 'Atlantis: The Lost Empire',
+    title: 'Atlantis: O Reino Perdido',
     year: 2001,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🌊',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-55',
-    title: 'Jimmy Neutron: Boy Genius',
+    title: 'Jimmy Neutron: O Menino Gênio',
     year: 2001,
     category: 'animacao' as const,
     rating: 6.1,
-    poster: '🎬',
+    poster: '🚀',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-56',
-    title: 'Osmosis Jones',
+    title: 'Osmose Jones',
     year: 2001,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🦠',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-57',
-    title: 'Final Fantasy: The Spirits Within',
+    title: 'Final Fantasy',
     year: 2001,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🎮',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-58',
-    title: 'Cats & Dogs',
+    title: 'Como Cães e Gatos',
     year: 2001,
     category: 'animacao' as const,
     rating: 5.2,
-    poster: '🎬',
+    poster: '🐶',
     description: 'Action, Comedy, Family'
   },
   {
     id: 'anim-59',
-    title: 'Lady and the Tramp II: Scamp\'s Adventure',
+    title: 'A Dama e o Vagabundo II: As Aventuras de Banzé',
     year: 2001,
     category: 'animacao' as const,
     rating: 5.9,
-    poster: '🎬',
+    poster: '🍝',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-60',
-    title: 'Pokemon 3: The Movie',
+    title: 'Pokémon 3: O Feitiço dos Unown',
     year: 2001,
     category: 'animacao' as const,
     rating: 5.8,
-    poster: '🎬',
+    poster: '⚡',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-61',
-    title: 'Spirited Away',
+    title: 'A Viagem de Chihiro',
     year: 2002,
     category: 'animacao' as const,
     rating: 8.6,
-    poster: '🎬',
+    poster: '🐉',
     description: 'Animation, Adventure, Family'
   },
   {
@@ -566,178 +566,178 @@ export const animationMovies: Movie[] = [
     year: 2002,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '👽',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-63',
-    title: 'Ice Age',
+    title: 'A Era do Gelo',
     year: 2002,
     category: 'animacao' as const,
     rating: 7.5,
-    poster: '🎬',
+    poster: '🧊',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-64',
-    title: 'Treasure Planet',
+    title: 'Planeta do Tesouro',
     year: 2002,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🏴‍☠️',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-65',
-    title: 'Spirit: Stallion of the Cimarron',
+    title: 'Spirit: O Corcel Indomável',
     year: 2002,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🐎',
     description: 'Animation, Adventure, Drama'
   },
   {
     id: 'anim-66',
-    title: 'Hey Arnold! The Movie',
+    title: 'Hey Arnold! O Filme',
     year: 2002,
     category: 'animacao' as const,
     rating: 5.9,
-    poster: '🎬',
+    poster: '🏈',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-67',
-    title: 'Return to Never Land',
+    title: 'Peter Pan: De Volta à Terra do Nunca',
     year: 2002,
     category: 'animacao' as const,
     rating: 5.8,
-    poster: '🎬',
+    poster: '🧚',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-68',
-    title: 'The Wild Thornberrys Movie',
+    title: 'Os Thornberrys: O Filme',
     year: 2002,
     category: 'animacao' as const,
     rating: 5.6,
-    poster: '🎬',
+    poster: '🚐',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-69',
-    title: 'Stuart Little 2',
+    title: 'O Pequeno Stuart Little 2',
     year: 2002,
     category: 'animacao' as const,
     rating: 5.5,
-    poster: '🎬',
+    poster: '🐭',
     description: 'Adventure, Comedy, Family'
   },
   {
     id: 'anim-70',
-    title: 'The Powerpuff Girls Movie',
+    title: 'As Meninas Superpoderosas: O Filme',
     year: 2002,
     category: 'animacao' as const,
     rating: 6.5,
-    poster: '🎬',
+    poster: '💥',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-71',
-    title: 'Finding Nemo',
+    title: 'Procurando Nemo',
     year: 2003,
     category: 'animacao' as const,
     rating: 8.2,
-    poster: '🎬',
+    poster: '🐠',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-72',
-    title: 'Brother Bear',
+    title: 'Irmão Urso',
     year: 2003,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🐻',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-73',
-    title: 'The Triplets of Belleville',
+    title: 'As Bicicletas de Belleville',
     year: 2003,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🚲',
     description: 'Animation, Comedy, Drama'
   },
   {
     id: 'anim-74',
-    title: 'Sinbad: Legend of the Seven Seas',
+    title: 'Sinbad: A Lenda dos Sete Mares',
     year: 2003,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '⛵',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-75',
-    title: 'Piglet\'s Big Movie',
+    title: 'Leitão: O Filme',
     year: 2003,
     category: 'animacao' as const,
     rating: 6.2,
-    poster: '🎬',
+    poster: '🐷',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-76',
-    title: 'The Jungle Book 2',
+    title: 'Mogli: O Menino Lobo 2',
     year: 2003,
     category: 'animacao' as const,
     rating: 5.3,
-    poster: '🎬',
+    poster: '🌴',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-77',
-    title: '101 Dalmatians II: Patch\'s London Adventure',
+    title: '101 Dálmatas II: A Aventura de Patch em Londres',
     year: 2003,
     category: 'animacao' as const,
     rating: 5.8,
-    poster: '🎬',
+    poster: '🐾',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-78',
-    title: 'Rugrats Go Wild',
+    title: 'Os Rugrats e os Thornberrys Vão Aprontar',
     year: 2003,
     category: 'animacao' as const,
     rating: 5.6,
-    poster: '🎬',
+    poster: '🤪',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-79',
-    title: 'The Animatrix',
+    title: 'Animatrix',
     year: 2003,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🕶️',
     description: 'Animation, Action, Sci-Fi'
   },
   {
     id: 'anim-80',
-    title: 'Good Boy!',
+    title: 'Um Cão de Outro Mundo',
     year: 2003,
     category: 'animacao' as const,
     rating: 5.1,
-    poster: '🎬',
+    poster: '🐕',
     description: 'Comedy, Family, Fantasy'
   },
   {
     id: 'anim-81',
-    title: 'The Incredibles',
+    title: 'Os Incríveis',
     year: 2004,
     category: 'animacao' as const,
     rating: 8,
-    poster: '🎬',
+    poster: '🦸',
     description: 'Animation, Action, Adventure'
   },
   {
@@ -746,106 +746,106 @@ export const animationMovies: Movie[] = [
     year: 2004,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '👹',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-83',
-    title: 'Howl\'s Moving Castle',
+    title: 'O Castelo Animado',
     year: 2004,
     category: 'animacao' as const,
     rating: 8.2,
-    poster: '🎬',
+    poster: '🏰',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-84',
-    title: 'Shark Tale',
+    title: 'O Espanta Tubarões',
     year: 2004,
     category: 'animacao' as const,
     rating: 6,
-    poster: '🎬',
+    poster: '🦈',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-85',
-    title: 'The Polar Express',
+    title: 'O Expresso Polar',
     year: 2004,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '🚂',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-86',
-    title: 'Home on the Range',
+    title: 'Nem Que a Vaca Tussa',
     year: 2004,
     category: 'animacao' as const,
     rating: 5.4,
-    poster: '🎬',
+    poster: '🐄',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-87',
-    title: 'The SpongeBob SquarePants Movie',
+    title: 'Bob Esponja: O Filme',
     year: 2004,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🧽',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-88',
-    title: 'Teacher\'s Pet',
+    title: 'O Cãozinho Esperto',
     year: 2004,
     category: 'animacao' as const,
-    rating: 5.7,
-    poster: '🎬',
+    rating: 5.8,
+    poster: '🐶',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-89',
-    title: 'Clifford\'s Really Big Movie',
+    title: 'Clifford: O Gigante Cão Vermelho',
     year: 2004,
     category: 'animacao' as const,
     rating: 4.9,
-    poster: '🎬',
+    poster: '🐕',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-90',
-    title: 'Scooby-Doo 2: Monsters Unleashed',
+    title: 'Scooby-Doo 2: Monstros à Solta',
     year: 2004,
     category: 'animacao' as const,
     rating: 5.1,
-    poster: '🎬',
+    poster: '👻',
     description: 'Adventure, Comedy, Family'
   },
   {
     id: 'anim-91',
-    title: 'Wallace & Gromit: The Curse of the Were-Rabbit',
+    title: 'Wallace & Gromit: A Batalha dos Vegetais',
     year: 2005,
     category: 'animacao' as const,
     rating: 7.5,
-    poster: '🎬',
+    poster: '🧀',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-92',
-    title: 'Howl\'s Moving Castle',
+    title: 'O Castelo Animado',
     year: 2005,
     category: 'animacao' as const,
     rating: 8.2,
-    poster: '🎬',
+    poster: '🏰',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-93',
-    title: 'Corpse Bride',
+    title: 'A Noiva Cadáver',
     year: 2005,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '👰',
     description: 'Animation, Drama, Family'
   },
   {
@@ -854,151 +854,151 @@ export const animationMovies: Movie[] = [
     year: 2005,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🦁',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-95',
-    title: 'Chicken Little',
+    title: 'O Galinho Chicken Little',
     year: 2005,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '🐔',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-96',
-    title: 'Robots',
+    title: 'Robôs',
     year: 2005,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🤖',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-97',
-    title: 'Valiant',
+    title: 'Valiant: Um Herói que Vale a Pena',
     year: 2005,
     category: 'animacao' as const,
     rating: 5.5,
-    poster: '🎬',
+    poster: '🕊️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-98',
-    title: 'Pooh\'s Heffalump Movie',
+    title: 'Pooh e o Efalante',
     year: 2005,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🐘',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-99',
-    title: 'The Wild',
+    title: 'Selvagem',
     year: 2005,
     category: 'animacao' as const,
     rating: 5.2,
-    poster: '🎬',
+    poster: '🦁',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-100',
-    title: 'Doogal',
+    title: 'Dogão: Amigo pra Cachorro',
     year: 2005,
     category: 'animacao' as const,
     rating: 3.8,
-    poster: '🎬',
+    poster: '🐕',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-101',
-    title: 'Cars',
+    title: 'Carros',
     year: 2006,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🚗',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-102',
-    title: 'Happy Feet',
+    title: 'Happy Feet: O Pinguim',
     year: 2006,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🐧',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-103',
-    title: 'Monster House',
+    title: 'A Casa Monstro',
     year: 2006,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '🏠',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-104',
-    title: 'Over the Hedge',
+    title: 'Os Sem-Floresta',
     year: 2006,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🦝',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-105',
-    title: 'Ice Age: The Meltdown',
+    title: 'A Era do Gelo 2',
     year: 2006,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🧊',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-106',
-    title: 'Flushed Away',
+    title: 'Por Água Abaixo',
     year: 2006,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '🚽',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-107',
-    title: 'Open Season',
+    title: 'O Bicho Vai Pegar',
     year: 2006,
     category: 'animacao' as const,
     rating: 6.1,
-    poster: '🎬',
+    poster: '🐻',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-108',
-    title: 'The Ant Bully',
+    title: 'Lucas: Um Intruso no Formigueiro',
     year: 2006,
     category: 'animacao' as const,
     rating: 5.8,
-    poster: '🎬',
+    poster: '🐜',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-109',
-    title: 'Barnyard',
+    title: 'O Segredo dos Animais',
     year: 2006,
     category: 'animacao' as const,
     rating: 5.6,
-    poster: '🎬',
+    poster: '🐮',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-110',
-    title: 'Everyone\'s Hero',
+    title: 'O Pequeno Herói',
     year: 2006,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '⚾',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1007,88 +1007,88 @@ export const animationMovies: Movie[] = [
     year: 2007,
     category: 'animacao' as const,
     rating: 8.1,
-    poster: '🎬',
+    poster: '🐀',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-112',
-    title: 'The Simpsons Movie',
+    title: 'Os Simpsons: O Filme',
     year: 2007,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🍩',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-113',
-    title: 'Persepolis',
+    title: 'Persépolis',
     year: 2007,
     category: 'animacao' as const,
     rating: 8,
-    poster: '🎬',
+    poster: '🇮🇷',
     description: 'Animation, Biography, Drama'
   },
   {
     id: 'anim-114',
-    title: 'Surf\'s Up',
+    title: 'Tá Dando Onda',
     year: 2007,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🏄',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-115',
-    title: 'Bee Movie',
+    title: 'Bee Movie: A História de uma Abelha',
     year: 2007,
     category: 'animacao' as const,
     rating: 6.1,
-    poster: '🎬',
+    poster: '🐝',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-116',
-    title: 'Shrek the Third',
+    title: 'Shrek Terceiro',
     year: 2007,
     category: 'animacao' as const,
     rating: 6.1,
-    poster: '🎬',
+    poster: '👹',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-117',
-    title: 'Meet the Robinsons',
+    title: 'A Família do Futuro',
     year: 2007,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🕰️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-118',
-    title: 'TMNT',
+    title: 'As Tartarugas Ninja: O Retorno',
     year: 2007,
     category: 'animacao' as const,
     rating: 6.2,
-    poster: '🎬',
+    poster: '🐢',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-119',
-    title: 'Alvin and the Chipmunks',
+    title: 'Alvin e os Esquilos',
     year: 2007,
     category: 'animacao' as const,
     rating: 5.3,
-    poster: '🎬',
+    poster: '🐿️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-120',
-    title: 'Happily N\'Ever After',
+    title: 'Deu a Louca na Cinderela',
     year: 2007,
     category: 'animacao' as const,
     rating: 4.5,
-    poster: '🎬',
+    poster: '👠',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1097,7 +1097,7 @@ export const animationMovies: Movie[] = [
     year: 2008,
     category: 'animacao' as const,
     rating: 8.4,
-    poster: '🎬',
+    poster: '🤖',
     description: 'Animation, Adventure, Family'
   },
   {
@@ -1106,43 +1106,43 @@ export const animationMovies: Movie[] = [
     year: 2008,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🐼',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-123',
-    title: 'Bolt',
+    title: 'Bolt: Supercão',
     year: 2008,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '⚡',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-124',
-    title: 'Madagascar: Escape 2 Africa',
+    title: 'Madagascar 2: A Grande Escapada',
     year: 2008,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '🦁',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-125',
-    title: 'Horton Hears a Who!',
+    title: 'Horton e o Mundo dos Quem!',
     year: 2008,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🐘',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-126',
-    title: 'The Tale of Despereaux',
+    title: 'O Corajoso Ratinho Despereaux',
     year: 2008,
     category: 'animacao' as const,
     rating: 6.1,
-    poster: '🎬',
+    poster: '🐭',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1151,124 +1151,124 @@ export const animationMovies: Movie[] = [
     year: 2008,
     category: 'animacao' as const,
     rating: 6,
-    poster: '🎬',
+    poster: '🧟',
     description: 'Animation, Comedy, Family'
   },
   {
     id: 'anim-128',
-    title: 'Space Chimps',
+    title: 'Space Chimps: Micos no Espaço',
     year: 2008,
     category: 'animacao' as const,
     rating: 4.5,
-    poster: '🎬',
+    poster: '🐵',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-129',
-    title: 'Fly Me to the Moon',
+    title: 'Os Mosconautas no Mundo da Lua',
     year: 2008,
     category: 'animacao' as const,
     rating: 4.5,
-    poster: '🎬',
+    poster: '🪰',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-130',
-    title: 'The Star Wars: The Clone Wars',
+    title: 'Star Wars: A Guerra dos Clones',
     year: 2008,
     category: 'animacao' as const,
     rating: 5.9,
-    poster: '🎬',
+    poster: '⚔️',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-131',
-    title: 'Up',
+    title: 'Up: Altas Aventuras',
     year: 2009,
     category: 'animacao' as const,
     rating: 8.3,
-    poster: '🎬',
+    poster: '🎈',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-132',
-    title: 'Coraline',
+    title: 'Coraline e o Mundo Secreto',
     year: 2009,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🧵',
     description: 'Animation, Drama, Family'
   },
   {
     id: 'anim-133',
-    title: 'Fantastic Mr. Fox',
+    title: 'O Fantástico Sr. Raposo',
     year: 2009,
     category: 'animacao' as const,
     rating: 7.9,
-    poster: '🎬',
+    poster: '🦊',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-134',
-    title: 'The Princess and the Frog',
+    title: 'A Princesa e o Sapo',
     year: 2009,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🐸',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-135',
-    title: 'Cloudy with a Chance of Meatballs',
+    title: 'Tá Chovendo Hambúrguer',
     year: 2009,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🍔',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-136',
-    title: 'Ponyo',
+    title: 'Ponyo: Uma Amizade que Veio do Mar',
     year: 2009,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🐟',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-137',
-    title: 'Monsters vs. Aliens',
+    title: 'Monstros vs. Alienígenas',
     year: 2009,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '👾',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-138',
-    title: 'Ice Age: Dawn of the Dinosaurs',
+    title: 'A Era do Gelo 3',
     year: 2009,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🦕',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-139',
-    title: '9',
+    title: '9: A Salvação',
     year: 2009,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🧵',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-140',
-    title: 'A Christmas Carol',
+    title: 'Os Fantasmas de Scrooge',
     year: 2009,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🎄',
     description: 'Animation, Drama, Family'
   },
   {
@@ -1277,88 +1277,88 @@ export const animationMovies: Movie[] = [
     year: 2010,
     category: 'animacao' as const,
     rating: 8.3,
-    poster: '🎬',
+    poster: '🤠',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-142',
-    title: 'How to Train Your Dragon',
+    title: 'Como Treinar o Seu Dragão',
     year: 2010,
     category: 'animacao' as const,
     rating: 8.1,
-    poster: '🎬',
+    poster: '🐲',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-143',
-    title: 'Tangled',
+    title: 'Enrolados',
     year: 2010,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '💇‍♀️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-144',
-    title: 'Despicable Me',
+    title: 'Meu Malvado Favorito',
     year: 2010,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🍌',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-145',
-    title: 'Megamind',
+    title: 'Megamente',
     year: 2010,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🧠',
     description: 'Animation, Action, Comedy'
   },
   {
     id: 'anim-146',
-    title: 'The Illusionist',
+    title: 'O Mágico',
     year: 2010,
     category: 'animacao' as const,
     rating: 7.5,
-    poster: '🎬',
+    poster: '🎩',
     description: 'Animation, Drama'
   },
   {
     id: 'anim-147',
-    title: 'Legend of the Guardians: The Owls of Ga\'Hoole',
+    title: 'A Lenda dos Guardiões',
     year: 2010,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🦉',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-148',
-    title: 'Shrek Forever After',
+    title: 'Shrek para Sempre',
     year: 2010,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '👹',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-149',
-    title: 'Alpha and Omega',
+    title: 'A Lady e o Lobo',
     year: 2010,
     category: 'animacao' as const,
     rating: 5.1,
-    poster: '🎬',
+    poster: '🐺',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-150',
-    title: 'Cats & Dogs: The Revenge of Kitty Galore',
+    title: 'Como Cães e Gatos 2: A Vingança de Kitty Galore',
     year: 2010,
     category: 'animacao' as const,
     rating: 4.3,
-    poster: '🎬',
+    poster: '🐱',
     description: 'Action, Comedy, Family'
   },
   {
@@ -1367,7 +1367,7 @@ export const animationMovies: Movie[] = [
     year: 2011,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🦎',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1376,34 +1376,34 @@ export const animationMovies: Movie[] = [
     year: 2011,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🐼',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-153',
-    title: 'Cars 2',
+    title: 'Carros 2',
     year: 2011,
     category: 'animacao' as const,
     rating: 6.2,
-    poster: '🎬',
+    poster: '🚗',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-154',
-    title: 'Puss in Boots',
+    title: 'Gato de Botas',
     year: 2011,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '👢',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-155',
-    title: 'The Adventures of Tintin',
+    title: 'As Aventuras de Tintim',
     year: 2011,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🔍',
     description: 'Animation, Action, Adventure'
   },
   {
@@ -1412,7 +1412,7 @@ export const animationMovies: Movie[] = [
     year: 2011,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🐻',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1421,43 +1421,43 @@ export const animationMovies: Movie[] = [
     year: 2011,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🦜',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-158',
-    title: 'Happy Feet Two',
+    title: 'Happy Feet 2: O Pinguim',
     year: 2011,
     category: 'animacao' as const,
     rating: 5.9,
-    poster: '🎬',
+    poster: '🐧',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-159',
-    title: 'Arthur Christmas',
+    title: 'Operação Presente',
     year: 2011,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🎁',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-160',
-    title: 'Mars Needs Moms',
+    title: 'Marte Precisa de Mães',
     year: 2011,
     category: 'animacao' as const,
     rating: 5.4,
-    poster: '🎬',
+    poster: '👽',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-161',
-    title: 'Wreck-It Ralph',
+    title: 'Detona Ralph',
     year: 2012,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🎮',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1466,16 +1466,16 @@ export const animationMovies: Movie[] = [
     year: 2012,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '👻',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-163',
-    title: 'Brave',
+    title: 'Valente',
     year: 2012,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🏹',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1484,115 +1484,115 @@ export const animationMovies: Movie[] = [
     year: 2012,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🐕',
     description: 'Animation, Comedy, Family'
   },
   {
     id: 'anim-165',
-    title: 'Rise of the Guardians',
+    title: 'A Origem dos Guardiões',
     year: 2012,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '❄️',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-166',
-    title: 'Hotel Transylvania',
+    title: 'Hotel Transilvânia',
     year: 2012,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🧛',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-167',
-    title: 'Madagascar 3: Europe\'s Most Wanted',
+    title: 'Madagascar 3: Os Procurados',
     year: 2012,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🎪',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-168',
-    title: 'Ice Age: Continental Drift',
+    title: 'A Era do Gelo 4',
     year: 2012,
     category: 'animacao' as const,
     rating: 6.5,
-    poster: '🎬',
+    poster: '🧊',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-169',
-    title: 'The Pirates! Band of Misfits',
+    title: 'Piratas Pirados!',
     year: 2012,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🏴‍☠️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-170',
-    title: 'Dr. Seuss\' The Lorax',
+    title: 'O Lorax: Em Busca da Trúfula Perdida',
     year: 2012,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🌳',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-171',
-    title: 'Frozen',
+    title: 'Frozen: Uma Aventura Congelante',
     year: 2013,
     category: 'animacao' as const,
     rating: 7.4,
-    poster: '🎬',
+    poster: '❄️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-172',
-    title: 'Despicable Me 2',
+    title: 'Meu Malvado Favorito 2',
     year: 2013,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🍌',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-173',
-    title: 'The Wind Rises',
+    title: 'Vidas ao Vento',
     year: 2013,
     category: 'animacao' as const,
     rating: 7.8,
-    poster: '🎬',
+    poster: '✈️',
     description: 'Animation, Biography, Drama'
   },
   {
     id: 'anim-174',
-    title: 'Monsters University',
+    title: 'Universidade Monstros',
     year: 2013,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🎓',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-175',
-    title: 'The Croods',
+    title: 'Os Croods',
     year: 2013,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🦴',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-176',
-    title: 'Epic',
+    title: 'Reino Escondido',
     year: 2013,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '🍃',
     description: 'Animation, Action, Adventure'
   },
   {
@@ -1606,20 +1606,20 @@ export const animationMovies: Movie[] = [
   },
   {
     id: 'anim-178',
-    title: 'Planes',
+    title: 'Aviões',
     year: 2013,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '✈️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-179',
-    title: 'Free Birds',
+    title: 'Bons de Bico',
     year: 2013,
     category: 'animacao' as const,
     rating: 5.8,
-    poster: '🎬',
+    poster: '🦃',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1628,88 +1628,88 @@ export const animationMovies: Movie[] = [
     year: 2013,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🐌',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-181',
-    title: 'The Lego Movie',
+    title: 'Uma Aventura LEGO',
     year: 2014,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🧱',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-182',
-    title: 'Big Hero 6',
+    title: 'Operação Big Hero',
     year: 2014,
     category: 'animacao' as const,
     rating: 7.8,
-    poster: '🎬',
+    poster: '🤖',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-183',
-    title: 'How to Train Your Dragon 2',
+    title: 'Como Treinar o Seu Dragão 2',
     year: 2014,
     category: 'animacao' as const,
     rating: 7.8,
-    poster: '🎬',
+    poster: '🐲',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-184',
-    title: 'The Tale of the Princess Kaguya',
+    title: 'O Conto da Princesa Kaguya',
     year: 2014,
     category: 'animacao' as const,
     rating: 8,
-    poster: '🎬',
+    poster: '🎋',
     description: 'Animation, Drama, Family'
   },
   {
     id: 'anim-185',
-    title: 'The Boxtrolls',
+    title: 'Os Boxtrolls',
     year: 2014,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '📦',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-186',
-    title: 'The Book of Life',
+    title: 'Festa no Céu',
     year: 2014,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '💀',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-187',
-    title: 'Mr. Peabody & Sherman',
+    title: 'As Aventuras de Peabody e Sherman',
     year: 2014,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🐶',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-188',
-    title: 'Penguins of Madagascar',
+    title: 'Os Pinguins de Madagascar',
     year: 2014,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🐧',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-189',
-    title: 'The Nut Job',
+    title: 'O Que Será de Nozes?',
     year: 2014,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '🐿️',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1718,16 +1718,16 @@ export const animationMovies: Movie[] = [
     year: 2014,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🦜',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-191',
-    title: 'Inside Out',
+    title: 'Divertida Mente',
     year: 2015,
     category: 'animacao' as const,
     rating: 8.1,
-    poster: '🎬',
+    poster: '🧠',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1736,16 +1736,16 @@ export const animationMovies: Movie[] = [
     year: 2015,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🎭',
     description: 'Animation, Comedy, Drama'
   },
   {
     id: 'anim-193',
-    title: 'Shaun the Sheep Movie',
+    title: 'Shaun: O Carneiro',
     year: 2015,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🐑',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1754,43 +1754,43 @@ export const animationMovies: Movie[] = [
     year: 2015,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🍌',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-195',
-    title: 'The Good Dinosaur',
+    title: 'O Bom Dinossauro',
     year: 2015,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🦕',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-196',
-    title: 'Hotel Transylvania 2',
+    title: 'Hotel Transilvânia 2',
     year: 2015,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🧛',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-197',
-    title: 'The Peanuts Movie',
+    title: 'Snoopy e Charlie Brown: Peanuts, O Filme',
     year: 2015,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🐶',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-198',
-    title: 'Home',
+    title: 'Cada Um na Sua Casa',
     year: 2015,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '👽',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1804,11 +1804,11 @@ export const animationMovies: Movie[] = [
   },
   {
     id: 'anim-200',
-    title: 'Strange Magic',
+    title: 'Magia Estranha',
     year: 2015,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '🧚',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -1817,43 +1817,43 @@ export const animationMovies: Movie[] = [
     year: 2016,
     category: 'animacao' as const,
     rating: 8,
-    poster: '🎬',
+    poster: '🐰',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-202',
-    title: 'Kubo and the Two Strings',
+    title: 'Kubo e as Cordas Mágicas',
     year: 2016,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🎸',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-203',
-    title: 'Moana',
+    title: 'Moana: Um Mar de Aventuras',
     year: 2016,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🌊',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-204',
-    title: 'Finding Dory',
+    title: 'Procurando Dory',
     year: 2016,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🐟',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-205',
-    title: 'The Red Turtle',
+    title: 'A Tartaruga Vermelha',
     year: 2016,
     category: 'animacao' as const,
     rating: 7.5,
-    poster: '🎬',
+    poster: '🐢',
     description: 'Animation, Drama, Family'
   },
   {
@@ -1862,25 +1862,25 @@ export const animationMovies: Movie[] = [
     year: 2016,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🐼',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-207',
-    title: 'The Secret Life of Pets',
+    title: 'Pets: A Vida Secreta dos Bichos',
     year: 2016,
     category: 'animacao' as const,
     rating: 6.5,
-    poster: '🎬',
+    poster: '🐕',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-208',
-    title: 'Sing',
+    title: 'Sing: Quem Canta Seus Males Espanta',
     year: 2016,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🎤',
     description: 'Animation, Comedy, Family'
   },
   {
@@ -1889,52 +1889,52 @@ export const animationMovies: Movie[] = [
     year: 2016,
     category: 'animacao' as const,
     rating: 6,
-    poster: '🎬',
+    poster: '🌈',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-210',
-    title: 'The Angry Birds Movie',
+    title: 'Angry Birds: O Filme',
     year: 2016,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🐦',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-211',
-    title: 'Coco',
+    title: 'Viva: A Vida é uma Festa',
     year: 2017,
     category: 'animacao' as const,
     rating: 8.4,
-    poster: '🎬',
+    poster: '🎸',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-212',
-    title: 'Loving Vincent',
+    title: 'Com Amor, Van Gogh',
     year: 2017,
     category: 'animacao' as const,
     rating: 7.8,
-    poster: '🎬',
+    poster: '🎨',
     description: 'Animation, Biography, Crime'
   },
   {
     id: 'anim-213',
-    title: 'The Breadwinner',
+    title: 'A Ganha-Pão',
     year: 2017,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🍞',
     description: 'Animation, Drama, Family'
   },
   {
     id: 'anim-214',
-    title: 'The Lego Batman Movie',
+    title: 'LEGO Batman: O Filme',
     year: 2017,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🦇',
     description: 'Animation, Action, Adventure'
   },
   {
@@ -1943,88 +1943,88 @@ export const animationMovies: Movie[] = [
     year: 2017,
     category: 'animacao' as const,
     rating: 8.4,
-    poster: '🎬',
+    poster: '🌠',
     description: 'Animation, Drama, Fantasy'
   },
   {
     id: 'anim-216',
-    title: 'Cars 3',
+    title: 'Carros 3',
     year: 2017,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🚗',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-217',
-    title: 'Despicable Me 3',
+    title: 'Meu Malvado Favorito 3',
     year: 2017,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🍌',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-218',
-    title: 'Captain Underpants: The First Epic Movie',
+    title: 'As Aventuras do Capitão Cueca: O Filme',
     year: 2017,
     category: 'animacao' as const,
     rating: 6.2,
-    poster: '🎬',
+    poster: '🩲',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-219',
-    title: 'Ferdinand',
+    title: 'O Touro Ferdinando',
     year: 2017,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🐂',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-220',
-    title: 'The Boss Baby',
+    title: 'O Poderoso Chefinho',
     year: 2017,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '👶',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-221',
-    title: 'Spider-Man: Into the Spider-Verse',
+    title: 'Homem-Aranha: No Aranhaverso',
     year: 2018,
     category: 'animacao' as const,
     rating: 8.4,
-    poster: '🎬',
+    poster: '🕷️',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-222',
-    title: 'Isle of Dogs',
+    title: 'Ilha dos Cachorros',
     year: 2018,
     category: 'animacao' as const,
     rating: 7.8,
-    poster: '🎬',
+    poster: '🐕',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-223',
-    title: 'Incredibles 2',
+    title: 'Os Incríveis 2',
     year: 2018,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🦸‍♂️',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-224',
-    title: 'Ralph Breaks the Internet',
+    title: 'WiFi Ralph: Quebrando a Internet',
     year: 2018,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🌐',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2033,52 +2033,52 @@ export const animationMovies: Movie[] = [
     year: 2018,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '👧',
     description: 'Animation, Adventure, Drama'
   },
   {
     id: 'anim-226',
-    title: 'Hotel Transylvania 3: Summer Vacation',
+    title: 'Hotel Transilvânia 3: Férias Monstruosas',
     year: 2018,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🚢',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-227',
-    title: 'Smallfoot',
+    title: 'PéPequeno',
     year: 2018,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '🦶',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-228',
-    title: 'Peter Rabbit',
+    title: 'Pedro Coelho',
     year: 2018,
     category: 'animacao' as const,
     rating: 6.6,
-    poster: '🎬',
+    poster: '🐰',
     description: 'Adventure, Comedy, Family'
   },
   {
     id: 'anim-229',
-    title: 'The Grinch',
+    title: 'O Grinch',
     year: 2018,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🎄',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-230',
-    title: 'Early Man',
+    title: 'O Homem das Cavernas',
     year: 2018,
     category: 'animacao' as const,
     rating: 6.1,
-    poster: '🎬',
+    poster: '🍖',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2087,7 +2087,7 @@ export const animationMovies: Movie[] = [
     year: 2019,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🤠',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2096,79 +2096,79 @@ export const animationMovies: Movie[] = [
     year: 2019,
     category: 'animacao' as const,
     rating: 8.2,
-    poster: '🎬',
+    poster: '🎅',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-233',
-    title: 'How to Train Your Dragon: The Hidden World',
+    title: 'Como Treinar o Seu Dragão 3',
     year: 2019,
     category: 'animacao' as const,
     rating: 7.4,
-    poster: '🎬',
+    poster: '🐲',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-234',
-    title: 'I Lost My Body',
+    title: 'Perdi Meu Corpo',
     year: 2019,
     category: 'animacao' as const,
     rating: 7.5,
-    poster: '🎬',
+    poster: '✋',
     description: 'Animation, Drama, Fantasy'
   },
   {
     id: 'anim-235',
-    title: 'Missing Link',
+    title: 'Link Perdido',
     year: 2019,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '👣',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-236',
-    title: 'Frozen II',
+    title: 'Frozen 2',
     year: 2019,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '❄️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-237',
-    title: 'Weathering with You',
+    title: 'O Tempo com Você',
     year: 2019,
     category: 'animacao' as const,
     rating: 7.5,
-    poster: '🎬',
+    poster: '☔',
     description: 'Animation, Drama, Fantasy'
   },
   {
     id: 'anim-238',
-    title: 'The Lion King',
+    title: 'O Rei Leão',
     year: 2019,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🦁',
     description: 'Animation, Adventure, Drama'
   },
   {
     id: 'anim-239',
-    title: 'The Angry Birds Movie 2',
+    title: 'Angry Birds 2: O Filme',
     year: 2019,
     category: 'animacao' as const,
     rating: 6.5,
-    poster: '🎬',
+    poster: '🐦',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-240',
-    title: 'Abominable',
+    title: 'Abominável',
     year: 2019,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🏔️',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2177,7 +2177,7 @@ export const animationMovies: Movie[] = [
     year: 2020,
     category: 'animacao' as const,
     rating: 8,
-    poster: '🎬',
+    poster: '🎹',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2186,79 +2186,79 @@ export const animationMovies: Movie[] = [
     year: 2020,
     category: 'animacao' as const,
     rating: 8,
-    poster: '🎬',
+    poster: '🐺',
     description: 'Animation, Adventure, Family'
   },
   {
     id: 'anim-243',
-    title: 'Onward',
+    title: 'Dois Irmãos: Uma Jornada Fantástica',
     year: 2020,
     category: 'animacao' as const,
     rating: 7.4,
-    poster: '🎬',
+    poster: '🚙',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-244',
-    title: 'A Shaun the Sheep Movie: Farmageddon',
+    title: 'Shaun, o Carneiro: O Filme - A Fazenda Contra-Ataca',
     year: 2020,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🛸',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-245',
-    title: 'Over the Moon',
+    title: 'A Caminho da Lua',
     year: 2020,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🚀',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-246',
-    title: 'The Croods: A New Age',
+    title: 'Os Croods 2: Uma Nova Era',
     year: 2020,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🦴',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-247',
-    title: 'Trolls World Tour',
+    title: 'Trolls 2',
     year: 2020,
     category: 'animacao' as const,
     rating: 6.1,
-    poster: '🎬',
+    poster: '🎸',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-248',
-    title: 'The Willoughbys',
+    title: 'Os Irmãos Willoughby',
     year: 2020,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🧶',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-249',
-    title: 'Scoob!',
+    title: 'Scooby! O Filme',
     year: 2020,
     category: 'animacao' as const,
     rating: 5.6,
-    poster: '🎬',
+    poster: '🐕',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-250',
-    title: 'The SpongeBob Movie: Sponge on the Run',
+    title: 'Bob Esponja: O Incrível Resgate',
     year: 2020,
     category: 'animacao' as const,
     rating: 5.9,
-    poster: '🎬',
+    poster: '🧽',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2267,16 +2267,16 @@ export const animationMovies: Movie[] = [
     year: 2021,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🕯️',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-252',
-    title: 'The Mitchells vs. The Machines',
+    title: 'A Família Mitchell e a Revolta das Máquinas',
     year: 2021,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🤖',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2285,25 +2285,25 @@ export const animationMovies: Movie[] = [
     year: 2021,
     category: 'animacao' as const,
     rating: 7.4,
-    poster: '🎬',
+    poster: '🛵',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-254',
-    title: 'Raya and the Last Dragon',
+    title: 'Raya e o Último Dragão',
     year: 2021,
     category: 'animacao' as const,
     rating: 7.3,
-    poster: '🎬',
+    poster: '🐉',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-255',
-    title: 'Flee',
+    title: 'Flee: A Fuga',
     year: 2021,
     category: 'animacao' as const,
     rating: 7.9,
-    poster: '🎬',
+    poster: '🏃',
     description: 'Animation, Biography, Documentary'
   },
   {
@@ -2312,7 +2312,7 @@ export const animationMovies: Movie[] = [
     year: 2021,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🎤',
     description: 'Animation, Adventure, Drama'
   },
   {
@@ -2321,79 +2321,79 @@ export const animationMovies: Movie[] = [
     year: 2021,
     category: 'animacao' as const,
     rating: 7.4,
-    poster: '🎬',
+    poster: '🎶',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-258',
-    title: 'Vivo',
+    title: 'A Jornada de Vivo',
     year: 2021,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🐒',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-259',
-    title: 'Ron\'s Gone Wrong',
+    title: 'Ron Bugado',
     year: 2021,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🤖',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-260',
-    title: 'The Boss Baby: Family Business',
+    title: 'O Poderoso Chefinho 2: Negócios da Família',
     year: 2021,
     category: 'animacao' as const,
     rating: 5.9,
-    poster: '🎬',
+    poster: '💼',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-261',
-    title: 'Guillermo del Toro\'s Pinocchio',
+    title: 'Pinóquio por Guillermo del Toro',
     year: 2022,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🤥',
     description: 'Animation, Drama, Family'
   },
   {
     id: 'anim-262',
-    title: 'Turning Red',
+    title: 'Red: Crescer é uma Fera',
     year: 2022,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🐼',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-263',
-    title: 'Puss in Boots: The Last Wish',
+    title: 'Gato de Botas 2: O Último Pedido',
     year: 2022,
     category: 'animacao' as const,
     rating: 7.8,
-    poster: '🎬',
+    poster: '👢',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-264',
-    title: 'Marcel the Shell with Shoes On',
+    title: 'Marcel, a Concha de Sapatos',
     year: 2022,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🐚',
     description: 'Animation, Comedy, Drama'
   },
   {
     id: 'anim-265',
-    title: 'The Sea Beast',
+    title: 'A Fera do Mar',
     year: 2022,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🌊',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2402,61 +2402,61 @@ export const animationMovies: Movie[] = [
     year: 2022,
     category: 'animacao' as const,
     rating: 6.1,
-    poster: '🎬',
+    poster: '🚀',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-267',
-    title: 'Strange World',
+    title: 'Mundo Estranho',
     year: 2022,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '🌍',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-268',
-    title: 'DC League of Super-Pets',
+    title: 'Liga dos Super-Pets',
     year: 2022,
     category: 'animacao' as const,
     rating: 7.1,
-    poster: '🎬',
+    poster: '🦸',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-269',
-    title: 'Minions: The Rise of Gru',
+    title: 'Minions 2: A Origem de Gru',
     year: 2022,
     category: 'animacao' as const,
     rating: 6.5,
-    poster: '🎬',
+    poster: '🍌',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-270',
-    title: 'The Bad Guys',
+    title: 'Os Caras Malvados',
     year: 2022,
     category: 'animacao' as const,
     rating: 6.8,
-    poster: '🎬',
+    poster: '🦊',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-271',
-    title: 'Spider-Man: Across the Spider-Verse',
+    title: 'Homem-Aranha: Através do Aranhaverso',
     year: 2023,
     category: 'animacao' as const,
     rating: 8.7,
-    poster: '🎬',
+    poster: '🕷️',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-272',
-    title: 'The Boy and the Heron',
+    title: 'O Menino e a Garça',
     year: 2023,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🦢',
     description: 'Animation, Adventure, Drama'
   },
   {
@@ -2465,7 +2465,7 @@ export const animationMovies: Movie[] = [
     year: 2023,
     category: 'animacao' as const,
     rating: 7.5,
-    poster: '🎬',
+    poster: '🗡️',
     description: 'Animation, Action, Adventure'
   },
   {
@@ -2474,79 +2474,79 @@ export const animationMovies: Movie[] = [
     year: 2023,
     category: 'animacao' as const,
     rating: 7.7,
-    poster: '🎬',
+    poster: '🚪',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-275',
-    title: 'Teenage Mutant Ninja Turtles: Mutant Mayhem',
+    title: 'As Tartarugas Ninja: Caos Mutante',
     year: 2023,
     category: 'animacao' as const,
     rating: 7.2,
-    poster: '🎬',
+    poster: '🐢',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-276',
-    title: 'Elemental',
+    title: 'Elementos',
     year: 2023,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🔥',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-277',
-    title: 'Wish',
+    title: 'Wish: O Poder dos Desejos',
     year: 2023,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '⭐',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-278',
-    title: 'Trolls Band Together',
+    title: 'Trolls 3: Juntos Novamente',
     year: 2023,
     category: 'animacao' as const,
     rating: 6,
-    poster: '🎬',
+    poster: '🎵',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-279',
-    title: 'Migration',
+    title: 'Patos!',
     year: 2023,
     category: 'animacao' as const,
     rating: 6.7,
-    poster: '🎬',
+    poster: '🦆',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-280',
-    title: 'Ruby Gillman, Teenage Kraken',
+    title: 'Ruby Gillman: A Kraken Adolescente',
     year: 2023,
     category: 'animacao' as const,
     rating: 5.7,
-    poster: '🎬',
+    poster: '🐙',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-281',
-    title: 'Inside Out 2',
+    title: 'Divertida Mente 2',
     year: 2024,
     category: 'animacao' as const,
     rating: 7.6,
-    poster: '🎬',
+    poster: '🧠',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-282',
-    title: 'The Wild Robot',
+    title: 'Robô Selvagem',
     year: 2024,
     category: 'animacao' as const,
     rating: 8.3,
-    poster: '🎬',
+    poster: '🤖',
     description: 'Animation, Adventure, Family'
   },
   {
@@ -2555,7 +2555,7 @@ export const animationMovies: Movie[] = [
     year: 2024,
     category: 'animacao' as const,
     rating: 8.1,
-    poster: '🎬',
+    poster: '🌊',
     description: 'Animation, Adventure, Drama'
   },
   {
@@ -2564,7 +2564,7 @@ export const animationMovies: Movie[] = [
     year: 2024,
     category: 'animacao' as const,
     rating: 6.3,
-    poster: '🎬',
+    poster: '🐼',
     description: 'Animation, Action, Adventure'
   },
   {
@@ -2573,52 +2573,52 @@ export const animationMovies: Movie[] = [
     year: 2024,
     category: 'animacao' as const,
     rating: 7,
-    poster: '🎬',
+    poster: '🌊',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-286',
-    title: 'The Imaginary',
+    title: 'O Imaginário',
     year: 2024,
     category: 'animacao' as const,
     rating: 6.9,
-    poster: '🎬',
+    poster: '🎨',
     description: 'Animation, Adventure, Drama'
   },
   {
     id: 'anim-287',
-    title: 'Memoir of a Snail',
+    title: 'Memórias de um Caracol',
     year: 2024,
     category: 'animacao' as const,
     rating: 7.9,
-    poster: '🎬',
+    poster: '🐌',
     description: 'Animation, Drama'
   },
   {
     id: 'anim-288',
-    title: 'Orion and the Dark',
+    title: 'Orion e a Escuridão',
     year: 2024,
     category: 'animacao' as const,
     rating: 6.4,
-    poster: '🎬',
+    poster: '🌙',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-289',
-    title: 'The Garfield Movie',
+    title: 'Garfield: Fora de Casa',
     year: 2024,
     category: 'animacao' as const,
     rating: 5.1,
-    poster: '🎬',
+    poster: '🐈',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-290',
-    title: 'Transformers One',
+    title: 'Transformers: O Início',
     year: 2024,
     category: 'animacao' as const,
     rating: 7.9,
-    poster: '🎬',
+    poster: '🤖',
     description: 'Animation, Action, Adventure'
   },
   {
@@ -2627,7 +2627,7 @@ export const animationMovies: Movie[] = [
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '🛸',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2636,43 +2636,43 @@ export const animationMovies: Movie[] = [
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '🐰',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-293',
-    title: 'How to Train Your Dragon Live Action',
+    title: 'Como Treinar o Seu Dragão - Ação ao Vivo',
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '🐲',
     description: 'Action, Adventure, Family'
   },
   {
     id: 'anim-294',
-    title: 'The Smurfs Movie',
+    title: 'Os Smurfs: O Filme',
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '💙',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-295',
-    title: 'Lilo & Stitch Live Action',
+    title: 'Lilo & Stitch - Ação ao Vivo',
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '👾',
     description: 'Adventure, Comedy, Family'
   },
   {
     id: 'anim-296',
-    title: 'Gabby\'s Dollhouse: The Movie',
+    title: 'A Casa de Bonecas da Gabby: O Filme',
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '🏠',
     description: 'Animation, Family'
   },
   {
@@ -2681,25 +2681,25 @@ export const animationMovies: Movie[] = [
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '🐇',
     description: 'Animation, Adventure, Comedy'
   },
   {
     id: 'anim-298',
-    title: 'The Bad Guys 2',
+    title: 'Os Caras Malvados 2',
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '🦊',
     description: 'Animation, Action, Adventure'
   },
   {
     id: 'anim-299',
-    title: 'The SpongeBob Movie: Search for SquarePants',
+    title: 'Bob Esponja: Em Busca do Calção Quadrado',
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '🧽',
     description: 'Animation, Adventure, Comedy'
   },
   {
@@ -2708,7 +2708,7 @@ export const animationMovies: Movie[] = [
     year: 2025,
     category: 'animacao' as const,
     rating: 0,
-    poster: '🎬',
+    poster: '🐕',
     description: 'Animation, Adventure, Comedy'
   }
 ];
