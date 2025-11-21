@@ -18,7 +18,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🔔',
-    description: 'Animation, Drama, Family'
+    description: 'Corcunda de Notre Dame busca aceitação'
   },
   {
     id: 'anim-2',
@@ -27,7 +27,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🍑',
-    description: 'Animation, Adventure, Family'
+    description: 'Menino viaja em pêssego gigante'
   },
   {
     id: 'anim-3',
@@ -36,7 +36,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.5,
     poster: '🏀',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Looney Tunes jogam basquete com Michael Jordan'
   },
   {
     id: 'anim-4',
@@ -45,7 +45,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.5,
     poster: '🦢',
-    description: 'Animation, Family, Fantasy'
+    description: 'Princesa enfrenta feiticeiro malvado'
   },
   {
     id: 'anim-5',
@@ -54,7 +54,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '📺',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Dupla idiota atravessa os EUA'
   },
   {
     id: 'anim-6',
@@ -63,7 +63,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🧞',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Aladdin enfrenta 40 ladrões'
   },
   {
     id: 'anim-7',
@@ -72,7 +72,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.5,
     poster: '🐶',
-    description: 'Animation, Adventure, Family'
+    description: 'Cachorro volta do céu para missão'
   },
   {
     id: 'anim-8',
@@ -81,7 +81,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.5,
     poster: '🐧',
-    description: 'Animation, Adventure, Family'
+    description: 'Pinguim e seixo em aventura'
   },
   {
     id: 'anim-9',
@@ -90,7 +90,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.2,
     poster: '🤥',
-    description: 'Drama, Fantasy, Horror'
+    description: 'Terror fantástico'
   },
   {
     id: 'anim-10',
@@ -99,7 +99,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🔔',
-    description: 'Animation, Drama, Family'
+    description: 'Sino de Notre Dame e amor impossível'
   },
   {
     id: 'anim-11',
@@ -108,7 +108,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '💪',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Semideus descobre origem divina'
   },
   {
     id: 'anim-12',
@@ -117,7 +117,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '👸',
-    description: 'Animation, Adventure, Drama'
+    description: 'Princesa russa busca identidade'
   },
   {
     id: 'anim-13',
@@ -126,7 +126,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.9,
     poster: '🍞',
-    description: 'Animation, Family'
+    description: 'Torradeira em missão de resgate'
   },
   {
     id: 'anim-14',
@@ -135,7 +135,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🐱',
-    description: 'Animation, Comedy, Family'
+    description: 'Gato quer ser astro de Hollywood'
   },
   {
     id: 'anim-15',
@@ -144,7 +144,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6,
     poster: '🌹',
-    description: 'Animation, Family, Fantasy'
+    description: 'Bela e Fera celebram Natal'
   },
   {
     id: 'anim-16',
@@ -153,7 +153,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.2,
     poster: '🎶',
-    description: 'Animation, Comedy, Family'
+    description: 'Animais formam banda musical'
   },
   {
     id: 'anim-17',
@@ -162,7 +162,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.8,
     poster: '🐾',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Filhote dálmata em Londres'
   },
   {
     id: 'anim-18',
@@ -171,7 +171,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.8,
     poster: '👧',
-    description: 'Animation, Adventure, Family'
+    description: 'Menina forte em aventuras'
   },
   {
     id: 'anim-19',
@@ -180,7 +180,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.4,
     poster: '💇',
-    description: 'Comedy, Romance'
+    description: 'Comédia romântica'
   },
   {
     id: 'anim-20',
@@ -189,7 +189,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.6,
     poster: '🦘',
-    description: 'Action, Adventure, Fantasy'
+    description: 'Aventura de ação fantástica'
   },
   {
     id: 'anim-21',
@@ -198,7 +198,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🐉',
-    description: 'Animation, Adventure, Family'
+    description: 'Menina se disfarça de homem para guerra'
   },
   {
     id: 'anim-22',
@@ -207,7 +207,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🐜',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Formigas trabalham em equipe'
   },
   {
     id: 'anim-23',
@@ -216,7 +216,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '👑',
-    description: 'Animation, Adventure, Drama'
+    description: 'Príncipe do Egito lidera êxodo'
   },
   {
     id: 'anim-24',
@@ -225,7 +225,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.5,
     poster: '🐜',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Formiga Z busca individualidade'
   },
   {
     id: 'anim-25',
@@ -234,7 +234,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '⚔️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Jovem busca espada Excalibur'
   },
   {
     id: 'anim-26',
@@ -243,7 +243,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.2,
     poster: '👶',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Bebês Rugrats em grande aventura'
   },
   {
     id: 'anim-27',
@@ -252,7 +252,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.8,
     poster: '🧹',
-    description: 'Animation, Family, Fantasy'
+    description: 'Bruxa jovem faz entregas voadoras'
   },
   {
     id: 'anim-28',
@@ -261,7 +261,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.9,
     poster: '🦕',
-    description: 'Animation, Adventure, Family'
+    description: 'Dinossauros buscam vale encantado'
   },
   {
     id: 'anim-29',
@@ -270,7 +270,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.9,
     poster: '🍂',
-    description: 'Animation, Adventure, Family'
+    description: 'Pocahontas viaja para Londres'
   },
   {
     id: 'anim-30',
@@ -279,7 +279,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.3,
     poster: '🦢',
-    description: 'Animation, Family, Fantasy'
+    description: 'Ursinho Pooh em floresta mágica'
   },
   {
     id: 'anim-31',
@@ -288,7 +288,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.9,
     poster: '🤠',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Brinquedos em resgate de Woody'
   },
   {
     id: 'anim-32',
@@ -297,7 +297,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🦍',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Homem criado por gorilas na selva'
   },
   {
     id: 'anim-33',
@@ -306,7 +306,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.1,
     poster: '🤖',
-    description: 'Animation, Action, Adventure'
+    description: 'Robô gigante faz amizade com menino'
   },
   {
     id: 'anim-34',
@@ -315,7 +315,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🤬',
-    description: 'Animation, Comedy, Fantasy'
+    description: 'South Park em comédia polêmica'
   },
   {
     id: 'anim-35',
@@ -324,7 +324,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🎼',
-    description: 'Animation, Family, Fantasy'
+    description: 'Fantasia 2000 com música clássica'
   },
   {
     id: 'anim-36',
@@ -333,7 +333,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5,
     poster: '📓',
-    description: 'Animation, Comedy, Family'
+    description: 'Doug enfrenta desafio escolar'
   },
   {
     id: 'anim-37',
@@ -342,7 +342,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '⚡',
-    description: 'Animation, Action, Adventure'
+    description: 'Pokémon Mewtwo vs Mew'
   },
   {
     id: 'anim-38',
@@ -351,7 +351,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.4,
     poster: '👑',
-    description: 'Animation, Family, Fantasy'
+    description: 'Rei e governanta na Tailândia'
   },
   {
     id: 'anim-39',
@@ -360,7 +360,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🐯',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Tigrão busca família'
   },
   {
     id: 'anim-40',
@@ -369,7 +369,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '🐘',
-    description: 'Animation, Family'
+    description: 'Babar rei dos elefantes'
   },
   {
     id: 'anim-41',
@@ -378,7 +378,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🐔',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Galinhas fogem de fazenda'
   },
   {
     id: 'anim-42',
@@ -387,7 +387,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.4,
     poster: '🦙',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Imperador vira lhama por feitiço'
   },
   {
     id: 'anim-43',
@@ -396,7 +396,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🦕',
-    description: 'Animation, Adventure, Drama'
+    description: 'Dinossauro busca família'
   },
   {
     id: 'anim-44',
@@ -405,7 +405,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🐯',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pokémon Unown e Entei'
   },
   {
     id: 'anim-45',
@@ -414,7 +414,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🎼',
-    description: 'Animation, Family, Fantasy'
+    description: 'Dinossauro busca família'
   },
   {
     id: 'anim-46',
@@ -423,7 +423,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🗺️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pokémon 2000 salva o mundo'
   },
   {
     id: 'anim-47',
@@ -432,7 +432,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6,
     poster: '⚡',
-    description: 'Animation, Action, Adventure'
+    description: 'Rugrats em Paris'
   },
   {
     id: 'anim-48',
@@ -441,7 +441,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.2,
     poster: '🗼',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pateta e Max em aventura radical'
   },
   {
     id: 'anim-49',
@@ -450,7 +450,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🛹',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Galinha foge de fazenda'
   },
   {
     id: 'anim-50',
@@ -459,7 +459,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.5,
     poster: '🧜‍♀️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Estrada para El Dorado'
   },
   {
     id: 'anim-51',
@@ -468,7 +468,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.9,
     poster: '👹',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Dinossauros em jornada'
   },
   {
     id: 'anim-52',
@@ -477,7 +477,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.1,
     poster: '👻',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Monstros assustam crianças'
   },
   {
     id: 'anim-53',
@@ -486,7 +486,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.6,
     poster: '🐉',
-    description: 'Animation, Adventure, Family'
+    description: 'Shrek ogro anti-herói'
   },
   {
     id: 'anim-54',
@@ -495,7 +495,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🌊',
-    description: 'Animation, Action, Adventure'
+    description: 'Atlântida cidade perdida'
   },
   {
     id: 'anim-55',
@@ -504,7 +504,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.1,
     poster: '🚀',
-    description: 'Animation, Action, Adventure'
+    description: 'Menino gênio salva pais'
   },
   {
     id: 'anim-56',
@@ -513,7 +513,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🦠',
-    description: 'Animation, Action, Adventure'
+    description: 'Célula branca em corpo humano'
   },
   {
     id: 'anim-57',
@@ -522,7 +522,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🎮',
-    description: 'Animation, Action, Adventure'
+    description: 'Final Fantasy batalha alienígena'
   },
   {
     id: 'anim-58',
@@ -540,7 +540,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.9,
     poster: '🍝',
-    description: 'Animation, Adventure, Family'
+    description: 'Cães e gatos em guerra'
   },
   {
     id: 'anim-60',
@@ -549,7 +549,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.8,
     poster: '⚡',
-    description: 'Animation, Action, Adventure'
+    description: 'Pokémon 3 com Unown'
   },
   {
     id: 'anim-61',
@@ -567,7 +567,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '👽',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Lilo e Stitch alienígena fofinho'
   },
   {
     id: 'anim-63',
@@ -585,7 +585,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🏴‍☠️',
-    description: 'Animation, Adventure, Family'
+    description: 'Planeta do Tesouro espacial'
   },
   {
     id: 'anim-65',
@@ -594,7 +594,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🐎',
-    description: 'Animation, Adventure, Drama'
+    description: 'Cavalo selvagem busca liberdade'
   },
   {
     id: 'anim-66',
@@ -603,7 +603,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.9,
     poster: '🏈',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Hey Arnold salva bairro'
   },
   {
     id: 'anim-67',
@@ -612,7 +612,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.8,
     poster: '🧚',
-    description: 'Animation, Adventure, Family'
+    description: 'Peter Pan retorna'
   },
   {
     id: 'anim-68',
@@ -621,7 +621,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.6,
     poster: '🚐',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Thornberrys em aventura selvagem'
   },
   {
     id: 'anim-69',
@@ -639,7 +639,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.5,
     poster: '💥',
-    description: 'Animation, Action, Adventure'
+    description: 'Meninas Superpoderosas salvam cidade'
   },
   {
     id: 'anim-71',
@@ -648,7 +648,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.2,
     poster: '🐠',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Peixe-palhaço perdido no oceano'
   },
   {
     id: 'anim-72',
@@ -666,7 +666,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🚲',
-    description: 'Animation, Comedy, Drama'
+    description: 'Ciclista francês em competição'
   },
   {
     id: 'anim-74',
@@ -675,7 +675,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '⛵',
-    description: 'Animation, Adventure, Family'
+    description: 'Sinbad e lenda dos mares'
   },
   {
     id: 'anim-75',
@@ -684,7 +684,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.2,
     poster: '🐷',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Leitão em grande aventura'
   },
   {
     id: 'anim-76',
@@ -711,7 +711,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.6,
     poster: '🤪',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Rugrats e Thornberrys juntos'
   },
   {
     id: 'anim-79',
@@ -738,7 +738,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8,
     poster: '🦸',
-    description: 'Animation, Action, Adventure'
+    description: 'Família de super-heróis'
   },
   {
     id: 'anim-82',
@@ -747,7 +747,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '👹',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Tubarão vegetariano'
   },
   {
     id: 'anim-83',
@@ -756,7 +756,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.2,
     poster: '🏰',
-    description: 'Animation, Adventure, Family'
+    description: 'Castelo mágico ambulante'
   },
   {
     id: 'anim-84',
@@ -765,7 +765,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6,
     poster: '🦈',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Peixe mente sobre ser matador'
   },
   {
     id: 'anim-85',
@@ -774,7 +774,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '🚂',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Trem mágico para Pólo Norte'
   },
   {
     id: 'anim-86',
@@ -783,7 +783,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.4,
     poster: '🐄',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Vacas salvam fazenda'
   },
   {
     id: 'anim-87',
@@ -792,7 +792,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🧽',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Bob Esponja busca coroa roubada'
   },
   {
     id: 'anim-88',
@@ -801,7 +801,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.8,
     poster: '🐶',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Cãozinho inteligente'
   },
   {
     id: 'anim-89',
@@ -810,7 +810,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.9,
     poster: '🐕',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Cão vermelho gigante'
   },
   {
     id: 'anim-90',
@@ -819,7 +819,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.1,
     poster: '👻',
-    description: 'Adventure, Comedy, Family'
+    description: 'Scooby-Doo contra monstros'
   },
   {
     id: 'anim-91',
@@ -828,7 +828,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.5,
     poster: '🧀',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Wallace e Gromit salvam vegetais'
   },
   {
     id: 'anim-92',
@@ -846,7 +846,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '👰',
-    description: 'Animation, Drama, Family'
+    description: 'Noivo casa com noiva morta'
   },
   {
     id: 'anim-94',
@@ -855,7 +855,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🦁',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Animais de zoológico em Madagascar'
   },
   {
     id: 'anim-95',
@@ -864,7 +864,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '🐔',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Galinho alerta sobre invasão'
   },
   {
     id: 'anim-96',
@@ -873,7 +873,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🤖',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Robô inventor busca sonho'
   },
   {
     id: 'anim-97',
@@ -882,7 +882,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.5,
     poster: '🕊️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pombo herói na guerra'
   },
   {
     id: 'anim-98',
@@ -891,7 +891,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🐘',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pooh e amigo elefante'
   },
   {
     id: 'anim-99',
@@ -900,7 +900,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.2,
     poster: '🦁',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Leão selvagem na cidade'
   },
   {
     id: 'anim-100',
@@ -909,7 +909,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 3.8,
     poster: '🐕',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Cachorro surfista'
   },
   {
     id: 'anim-101',
@@ -918,7 +918,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🚗',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Carro de corrida aprende lição'
   },
   {
     id: 'anim-102',
@@ -927,7 +927,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🐧',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pinguim que dança sapateado'
   },
   {
     id: 'anim-103',
@@ -936,7 +936,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '🏠',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Casa assombrada viva'
   },
   {
     id: 'anim-104',
@@ -945,7 +945,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🦝',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Animais invadem subúrbio'
   },
   {
     id: 'anim-105',
@@ -954,7 +954,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🧊',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Era do Gelo derrete'
   },
   {
     id: 'anim-106',
@@ -963,7 +963,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '🚽',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Rato no esgoto de Londres'
   },
   {
     id: 'anim-107',
@@ -972,7 +972,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.1,
     poster: '🐻',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Urso e animais na floresta'
   },
   {
     id: 'anim-108',
@@ -981,7 +981,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.8,
     poster: '🐜',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menino encolhido em formigueiro'
   },
   {
     id: 'anim-109',
@@ -990,7 +990,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.6,
     poster: '🐮',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Animais cantam quando humanos saem'
   },
   {
     id: 'anim-110',
@@ -999,7 +999,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '⚾',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Herói do beisebol viaja no tempo'
   },
   {
     id: 'anim-111',
@@ -1008,7 +1008,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.1,
     poster: '🐀',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Rato sonha ser chef em Paris'
   },
   {
     id: 'anim-112',
@@ -1017,7 +1017,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🍩',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Homer polui lago e foge'
   },
   {
     id: 'anim-113',
@@ -1026,7 +1026,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8,
     poster: '🇮🇷',
-    description: 'Animation, Biography, Drama'
+    description: 'Menina cresce no Irã revolucionário'
   },
   {
     id: 'anim-114',
@@ -1035,7 +1035,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🏄',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pinguim surfista em documentário'
   },
   {
     id: 'anim-115',
@@ -1044,7 +1044,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.1,
     poster: '🐝',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Abelha processa humanidade'
   },
   {
     id: 'anim-116',
@@ -1053,7 +1053,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.1,
     poster: '👹',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Shrek busca novo rei'
   },
   {
     id: 'anim-117',
@@ -1062,7 +1062,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🕰️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menino inventor viaja ao futuro'
   },
   {
     id: 'anim-118',
@@ -1071,7 +1071,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.2,
     poster: '🐢',
-    description: 'Animation, Action, Adventure'
+    description: 'Tartarugas enfrentam monstros antigos'
   },
   {
     id: 'anim-119',
@@ -1080,7 +1080,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.3,
     poster: '🐿️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Esquilos cantores viram estrelas'
   },
   {
     id: 'anim-120',
@@ -1089,7 +1089,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.5,
     poster: '👠',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Contos de fadas viram de cabeça para baixo'
   },
   {
     id: 'anim-121',
@@ -1098,7 +1098,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.4,
     poster: '🤖',
-    description: 'Animation, Adventure, Family'
+    description: 'Robô solitário limpa a Terra'
   },
   {
     id: 'anim-122',
@@ -1107,7 +1107,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🐼',
-    description: 'Animation, Action, Adventure'
+    description: 'Panda desajeitado vira guerreiro'
   },
   {
     id: 'anim-123',
@@ -1116,7 +1116,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '⚡',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Cão ator pensa ter superpoderes'
   },
   {
     id: 'anim-124',
@@ -1125,7 +1125,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '🦁',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Animais tentam voltar para NY'
   },
   {
     id: 'anim-125',
@@ -1134,7 +1134,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🐘',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Elefante ouve mundo em grão'
   },
   {
     id: 'anim-126',
@@ -1143,7 +1143,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.1,
     poster: '🐭',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Ratinho corajoso em reino triste'
   },
   {
     id: 'anim-127',
@@ -1152,7 +1152,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6,
     poster: '🧟',
-    description: 'Animation, Comedy, Family'
+    description: 'Assistente corcunda quer ser cientista'
   },
   {
     id: 'anim-128',
@@ -1161,7 +1161,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.5,
     poster: '🐵',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Macacos astronautas em missão'
   },
   {
     id: 'anim-129',
@@ -1170,7 +1170,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.5,
     poster: '🪰',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Moscas viajam à Lua'
   },
   {
     id: 'anim-130',
@@ -1179,7 +1179,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.9,
     poster: '⚔️',
-    description: 'Animation, Action, Adventure'
+    description: 'Jedi em guerras clônicas'
   },
   {
     id: 'anim-131',
@@ -1188,7 +1188,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.3,
     poster: '🎈',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Velho viaja em casa voadora'
   },
   {
     id: 'anim-132',
@@ -1197,7 +1197,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🧵',
-    description: 'Animation, Drama, Family'
+    description: 'Menina descobre mundo paralelo'
   },
   {
     id: 'anim-133',
@@ -1206,7 +1206,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.9,
     poster: '🦊',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Raposa rouba fazendeiros'
   },
   {
     id: 'anim-134',
@@ -1215,7 +1215,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🐸',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Beijo transforma príncipe em sapo'
   },
   {
     id: 'anim-135',
@@ -1224,7 +1224,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🍔',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Comida cai do céu'
   },
   {
     id: 'anim-136',
@@ -1233,7 +1233,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🐟',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Peixinho quer virar humana'
   },
   {
     id: 'anim-137',
@@ -1242,7 +1242,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '👾',
-    description: 'Animation, Action, Adventure'
+    description: 'Monstros salvam Terra de aliens'
   },
   {
     id: 'anim-138',
@@ -1251,7 +1251,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🦕',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Bonecos de pano pós-apocalípticos'
   },
   {
     id: 'anim-139',
@@ -1260,7 +1260,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🧵',
-    description: 'Animation, Action, Adventure'
+    description: 'Bonecos lutam contra máquinas'
   },
   {
     id: 'anim-140',
@@ -1269,7 +1269,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🎄',
-    description: 'Animation, Drama, Family'
+    description: 'Scrooge visita fantasmas do Natal'
   },
   {
     id: 'anim-141',
@@ -1278,7 +1278,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.3,
     poster: '🤠',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Brinquedos doados para creche'
   },
   {
     id: 'anim-142',
@@ -1287,7 +1287,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.1,
     poster: '🐲',
-    description: 'Animation, Action, Adventure'
+    description: 'Viking faz amizade com dragão'
   },
   {
     id: 'anim-143',
@@ -1296,7 +1296,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '💇‍♀️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Rapunzel foge da torre'
   },
   {
     id: 'anim-144',
@@ -1305,7 +1305,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🍌',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Vilão adota três órfãs'
   },
   {
     id: 'anim-145',
@@ -1314,7 +1314,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🧠',
-    description: 'Animation, Action, Comedy'
+    description: 'Vilão azul vira herói'
   },
   {
     id: 'anim-146',
@@ -1323,7 +1323,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.5,
     poster: '🎩',
-    description: 'Animation, Drama'
+    description: 'Mágico em mundo moderno'
   },
   {
     id: 'anim-147',
@@ -1332,7 +1332,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🦉',
-    description: 'Animation, Action, Adventure'
+    description: 'Corujas guerreiras lendárias'
   },
   {
     id: 'anim-148',
@@ -1341,7 +1341,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '👹',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Shrek em realidade alternativa'
   },
   {
     id: 'anim-149',
@@ -1350,7 +1350,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.1,
     poster: '🐺',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Lobos em aventura no Canadá'
   },
   {
     id: 'anim-150',
@@ -1359,7 +1359,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 4.3,
     poster: '🐱',
-    description: 'Action, Comedy, Family'
+    description: 'Gata espiã quer dominar mundo'
   },
   {
     id: 'anim-151',
@@ -1368,7 +1368,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🦎',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Camaleão xerife no Velho Oeste'
   },
   {
     id: 'anim-152',
@@ -1377,7 +1377,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🐼',
-    description: 'Animation, Action, Adventure'
+    description: 'Panda busca paz interior'
   },
   {
     id: 'anim-153',
@@ -1386,7 +1386,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.2,
     poster: '🚗',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Carros espiões internacionais'
   },
   {
     id: 'anim-154',
@@ -1395,7 +1395,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '👢',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Gato busca feijões mágicos'
   },
   {
     id: 'anim-155',
@@ -1404,7 +1404,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🔍',
-    description: 'Animation, Action, Adventure'
+    description: 'Repórter busca tesouro perdido'
   },
   {
     id: 'anim-156',
@@ -1413,7 +1413,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🐻',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pooh busca mel e rabo do Ió'
   },
   {
     id: 'anim-157',
@@ -1422,7 +1422,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🦜',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Arara azul vai ao Rio'
   },
   {
     id: 'anim-158',
@@ -1431,7 +1431,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.9,
     poster: '🐧',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pinguim sapateador tem filho'
   },
   {
     id: 'anim-159',
@@ -1440,7 +1440,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🎁',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Filho do Papai Noel entrega presente'
   },
   {
     id: 'anim-160',
@@ -1449,7 +1449,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.4,
     poster: '👽',
-    description: 'Animation, Action, Adventure'
+    description: 'Mãe abduzida por marcianos'
   },
   {
     id: 'anim-161',
@@ -1458,7 +1458,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🎮',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Vilão de videogame quer ser herói'
   },
   {
     id: 'anim-162',
@@ -1467,7 +1467,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '👻',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menino fala com mortos'
   },
   {
     id: 'anim-163',
@@ -1476,7 +1476,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🏹',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Princesa arqueira muda destino'
   },
   {
     id: 'anim-164',
@@ -1485,7 +1485,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🐕',
-    description: 'Animation, Comedy, Family'
+    description: 'Menino ressuscita cachorro'
   },
   {
     id: 'anim-165',
@@ -1494,7 +1494,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '❄️',
-    description: 'Animation, Action, Adventure'
+    description: 'Guardiões protegem crianças'
   },
   {
     id: 'anim-166',
@@ -1503,7 +1503,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🧛',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Drácula opera resort para monstros'
   },
   {
     id: 'anim-167',
@@ -1512,7 +1512,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🎪',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Animais se juntam a circo europeu'
   },
   {
     id: 'anim-168',
@@ -1521,7 +1521,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.5,
     poster: '🧊',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Deriva continental separa bando'
   },
   {
     id: 'anim-169',
@@ -1530,7 +1530,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🏴‍☠️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Capitão pirata busca prêmio'
   },
   {
     id: 'anim-170',
@@ -1539,7 +1539,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🌳',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Guardião da floresta luta contra indústria'
   },
   {
     id: 'anim-171',
@@ -1548,7 +1548,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.4,
     poster: '❄️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Irmãs princesas salvam reino do gelo'
   },
   {
     id: 'anim-172',
@@ -1557,7 +1557,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🍌',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Gru recrutado por agência secreta'
   },
   {
     id: 'anim-173',
@@ -1566,7 +1566,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.8,
     poster: '✈️',
-    description: 'Animation, Biography, Drama'
+    description: 'Engenheiro projeta aviões de guerra'
   },
   {
     id: 'anim-174',
@@ -1575,7 +1575,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🎓',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Mike e Sulley na faculdade'
   },
   {
     id: 'anim-175',
@@ -1584,7 +1584,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🦴',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Família pré-histórica busca novo lar'
   },
   {
     id: 'anim-176',
@@ -1593,7 +1593,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '🍃',
-    description: 'Animation, Action, Adventure'
+    description: 'Menina encolhida salva floresta'
   },
   {
     id: 'anim-177',
@@ -1602,7 +1602,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🎬',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Comida viva ameaça mundo'
   },
   {
     id: 'anim-178',
@@ -1611,7 +1611,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '✈️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Avião pulverizador quer competir'
   },
   {
     id: 'anim-179',
@@ -1620,7 +1620,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.8,
     poster: '🦃',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Perus viajam no tempo'
   },
   {
     id: 'anim-180',
@@ -1629,7 +1629,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🐌',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Caracol ganha supervelocidade'
   },
   {
     id: 'anim-181',
@@ -1638,7 +1638,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🧱',
-    description: 'Animation, Action, Adventure'
+    description: 'Boneco comum confundido com escolhido'
   },
   {
     id: 'anim-182',
@@ -1647,7 +1647,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.8,
     poster: '🤖',
-    description: 'Animation, Action, Adventure'
+    description: 'Robô inflável e equipe de heróis'
   },
   {
     id: 'anim-183',
@@ -1656,7 +1656,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.8,
     poster: '🐲',
-    description: 'Animation, Action, Adventure'
+    description: 'Soluço reencontra mãe perdida'
   },
   {
     id: 'anim-184',
@@ -1665,7 +1665,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8,
     poster: '🎋',
-    description: 'Animation, Drama, Family'
+    description: 'Princesa da Lua na Terra'
   },
   {
     id: 'anim-185',
@@ -1674,7 +1674,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '📦',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Trolls de caixa criam menino'
   },
   {
     id: 'anim-186',
@@ -1683,7 +1683,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '💀',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Toureador viaja ao mundo dos mortos'
   },
   {
     id: 'anim-187',
@@ -1692,7 +1692,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🐶',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Cão gênio e menino viajam no tempo'
   },
   {
     id: 'anim-188',
@@ -1701,7 +1701,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🐧',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Pinguins espiões salvam mundo'
   },
   {
     id: 'anim-189',
@@ -1710,7 +1710,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '🐿️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Esquilo planeja roubo de nozes'
   },
   {
     id: 'anim-190',
@@ -1719,7 +1719,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🦜',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Araras viajam para Amazônia'
   },
   {
     id: 'anim-191',
@@ -1728,7 +1728,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.1,
     poster: '🧠',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Emoções controlam mente de menina'
   },
   {
     id: 'anim-192',
@@ -1737,7 +1737,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🎭',
-    description: 'Animation, Comedy, Drama'
+    description: 'Homem vê todos com mesmo rosto'
   },
   {
     id: 'anim-193',
@@ -1746,7 +1746,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🐑',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Ovelha tira dia de folga na cidade'
   },
   {
     id: 'anim-194',
@@ -1755,7 +1755,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🍌',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Minions buscam novo mestre vilão'
   },
   {
     id: 'anim-195',
@@ -1764,7 +1764,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🦕',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Dinossauro faz amizade com humano'
   },
   {
     id: 'anim-196',
@@ -1773,7 +1773,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🧛',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Drácula preocupado com neto'
   },
   {
     id: 'anim-197',
@@ -1782,7 +1782,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🐶',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Charlie Brown e Snoopy em aventuras'
   },
   {
     id: 'anim-198',
@@ -1791,7 +1791,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '👽',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Alien foge e faz amizade com menina'
   },
   {
     id: 'anim-199',
@@ -1800,7 +1800,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🎬',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Snoopy e Charlie Brown em aventuras'
   },
   {
     id: 'anim-200',
@@ -1809,7 +1809,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '🧚',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Fadas e duendes em conflito'
   },
   {
     id: 'anim-201',
@@ -1818,7 +1818,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8,
     poster: '🐰',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Coelha policial investiga mistério'
   },
   {
     id: 'anim-202',
@@ -1827,7 +1827,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🎸',
-    description: 'Animation, Action, Adventure'
+    description: 'Menino com shamisen mágico'
   },
   {
     id: 'anim-203',
@@ -1836,7 +1836,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🌊',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Princesa polinésia navega oceano'
   },
   {
     id: 'anim-204',
@@ -1845,7 +1845,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🐟',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Dory busca pais perdidos'
   },
   {
     id: 'anim-205',
@@ -1854,7 +1854,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.5,
     poster: '🐢',
-    description: 'Animation, Drama, Family'
+    description: 'Homem em ilha com tartaruga'
   },
   {
     id: 'anim-206',
@@ -1863,7 +1863,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🐼',
-    description: 'Animation, Action, Adventure'
+    description: 'Panda enfrenta vilão espiritual'
   },
   {
     id: 'anim-207',
@@ -1872,7 +1872,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.5,
     poster: '🐕',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Vida secreta dos animais de estimação'
   },
   {
     id: 'anim-208',
@@ -1881,7 +1881,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🎤',
-    description: 'Animation, Comedy, Family'
+    description: 'Animais competem em show de talentos'
   },
   {
     id: 'anim-209',
@@ -1890,7 +1890,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6,
     poster: '🌈',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Trolls coloridos fogem de monstros'
   },
   {
     id: 'anim-210',
@@ -1899,7 +1899,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🐦',
-    description: 'Animation, Action, Adventure'
+    description: 'Pássaros raivosos vs porcos'
   },
   {
     id: 'anim-211',
@@ -1908,7 +1908,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.4,
     poster: '🎸',
-    description: 'Animation, Adventure, Family'
+    description: 'Menino viaja ao mundo dos mortos'
   },
   {
     id: 'anim-212',
@@ -1917,7 +1917,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.8,
     poster: '🎨',
-    description: 'Animation, Biography, Crime'
+    description: 'Investigação sobre morte de Van Gogh'
   },
   {
     id: 'anim-213',
@@ -1926,7 +1926,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🍞',
-    description: 'Animation, Drama, Family'
+    description: 'Menina afegã se disfarça de menino'
   },
   {
     id: 'anim-214',
@@ -1935,7 +1935,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🦇',
-    description: 'Animation, Action, Adventure'
+    description: 'Batman LEGO salva Gotham'
   },
   {
     id: 'anim-215',
@@ -1944,7 +1944,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.4,
     poster: '🌠',
-    description: 'Animation, Drama, Fantasy'
+    description: 'Jovens trocam de corpo misteriosamente'
   },
   {
     id: 'anim-216',
@@ -1953,7 +1953,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🚗',
-    description: 'Animation, Adventure, Comedy'
+    description: 'McQueen enfrenta nova geração'
   },
   {
     id: 'anim-217',
@@ -1962,7 +1962,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🍌',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Gru encontra irmão gêmeo'
   },
   {
     id: 'anim-218',
@@ -1971,7 +1971,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.2,
     poster: '🩲',
-    description: 'Animation, Action, Adventure'
+    description: 'Meninos criam super-herói de cueca'
   },
   {
     id: 'anim-219',
@@ -1980,7 +1980,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🐂',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Touro pacífico recusa touradas'
   },
   {
     id: 'anim-220',
@@ -1989,7 +1989,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '👶',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Bebê executivo vs irmão'
   },
   {
     id: 'anim-221',
@@ -1998,7 +1998,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.4,
     poster: '🕷️',
-    description: 'Animation, Action, Adventure'
+    description: 'Múltiplos Homens-Aranha em multiverso'
   },
   {
     id: 'anim-222',
@@ -2007,7 +2007,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.8,
     poster: '🐕',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Cachorros exilados em ilha de lixo'
   },
   {
     id: 'anim-223',
@@ -2016,7 +2016,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🦸‍♂️',
-    description: 'Animation, Action, Adventure'
+    description: 'Família de super-heróis em nova missão'
   },
   {
     id: 'anim-224',
@@ -2025,7 +2025,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🌐',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Ralph e Vanellope na internet'
   },
   {
     id: 'anim-225',
@@ -2034,7 +2034,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '👧',
-    description: 'Animation, Adventure, Drama'
+    description: 'Menino viaja no tempo familiar'
   },
   {
     id: 'anim-226',
@@ -2043,7 +2043,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🚢',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Drácula em cruzeiro de férias'
   },
   {
     id: 'anim-227',
@@ -2052,7 +2052,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '🦶',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Jovem encontra Yeti gigante'
   },
   {
     id: 'anim-228',
@@ -2061,7 +2061,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.6,
     poster: '🐰',
-    description: 'Adventure, Comedy, Family'
+    description: 'Coelho travesso vs fazendeiro'
   },
   {
     id: 'anim-229',
@@ -2070,7 +2070,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🎄',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Grinch tenta roubar Natal'
   },
   {
     id: 'anim-230',
@@ -2079,7 +2079,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.1,
     poster: '🍖',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Homem das cavernas joga futebol'
   },
   {
     id: 'anim-231',
@@ -2088,7 +2088,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🤠',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Woody encontra amor perdido'
   },
   {
     id: 'anim-232',
@@ -2097,7 +2097,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.2,
     poster: '🎅',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Origem do Papai Noel'
   },
   {
     id: 'anim-233',
@@ -2106,7 +2106,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.4,
     poster: '🐲',
-    description: 'Animation, Action, Adventure'
+    description: 'Soluço e Banguela em mundo oculto'
   },
   {
     id: 'anim-234',
@@ -2115,7 +2115,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.5,
     poster: '✋',
-    description: 'Animation, Drama, Fantasy'
+    description: 'Mão decepada busca dono'
   },
   {
     id: 'anim-235',
@@ -2124,7 +2124,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '👣',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Explorador busca elo perdido'
   },
   {
     id: 'anim-236',
@@ -2133,7 +2133,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '❄️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Elsa descobre origem de poderes'
   },
   {
     id: 'anim-237',
@@ -2142,7 +2142,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.5,
     poster: '☔',
-    description: 'Animation, Drama, Fantasy'
+    description: 'Menina controla clima'
   },
   {
     id: 'anim-238',
@@ -2151,7 +2151,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🦁',
-    description: 'Animation, Adventure, Drama'
+    description: 'Simba retorna para ser rei'
   },
   {
     id: 'anim-239',
@@ -2160,7 +2160,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.5,
     poster: '🐦',
-    description: 'Animation, Action, Adventure'
+    description: 'Pássaros e porcos se unem'
   },
   {
     id: 'anim-240',
@@ -2169,7 +2169,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🏔️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menina ajuda Yeti voltar para casa'
   },
   {
     id: 'anim-241',
@@ -2178,7 +2178,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8,
     poster: '🎹',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Alma busca propósito da vida'
   },
   {
     id: 'anim-242',
@@ -2187,7 +2187,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8,
     poster: '🐺',
-    description: 'Animation, Adventure, Family'
+    description: 'Menina vira lobo à noite'
   },
   {
     id: 'anim-243',
@@ -2196,7 +2196,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.4,
     poster: '🚙',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Irmãos buscam trazer pai de volta'
   },
   {
     id: 'anim-244',
@@ -2205,7 +2205,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🛸',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Shaun enfrenta alienígenas'
   },
   {
     id: 'anim-245',
@@ -2214,7 +2214,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🚀',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menina constrói foguete para Lua'
   },
   {
     id: 'anim-246',
@@ -2223,7 +2223,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🦴',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Croods encontram família evoluída'
   },
   {
     id: 'anim-247',
@@ -2232,7 +2232,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.1,
     poster: '🎸',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Trolls descobrem outros estilos musicais'
   },
   {
     id: 'anim-248',
@@ -2241,7 +2241,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🧶',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Irmãos abandonam pais'
   },
   {
     id: 'anim-249',
@@ -2250,7 +2250,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.6,
     poster: '🐕',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Scooby-Doo salva mundo'
   },
   {
     id: 'anim-250',
@@ -2259,7 +2259,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.9,
     poster: '🧽',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Bob Esponja resgata Gary'
   },
   {
     id: 'anim-251',
@@ -2268,7 +2268,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🕯️',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menina sem magia em família mágica'
   },
   {
     id: 'anim-252',
@@ -2277,7 +2277,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🤖',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Família vs apocalipse robótico'
   },
   {
     id: 'anim-253',
@@ -2286,7 +2286,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.4,
     poster: '🛵',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Monstro marinho vive como humano'
   },
   {
     id: 'anim-254',
@@ -2295,7 +2295,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.3,
     poster: '🐉',
-    description: 'Animation, Action, Adventure'
+    description: 'Guerreira busca último dragão'
   },
   {
     id: 'anim-255',
@@ -2304,7 +2304,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.9,
     poster: '🏃',
-    description: 'Animation, Biography, Documentary'
+    description: 'Refugiado afegão conta história'
   },
   {
     id: 'anim-256',
@@ -2313,7 +2313,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🎤',
-    description: 'Animation, Adventure, Drama'
+    description: 'Menina tímida vira cantora virtual'
   },
   {
     id: 'anim-257',
@@ -2322,7 +2322,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.4,
     poster: '🎶',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Animais montam show em Las Vegas'
   },
   {
     id: 'anim-258',
@@ -2331,7 +2331,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🐒',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Macaco entrega carta de amor'
   },
   {
     id: 'anim-259',
@@ -2340,7 +2340,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🤖',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Robô amigo com defeitos'
   },
   {
     id: 'anim-260',
@@ -2349,7 +2349,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.9,
     poster: '💼',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Chefinho e irmão viajam no tempo'
   },
   {
     id: 'anim-261',
@@ -2358,7 +2358,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🤥',
-    description: 'Animation, Drama, Family'
+    description: 'Pinóquio em versão sombria'
   },
   {
     id: 'anim-262',
@@ -2367,7 +2367,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🐼',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menina vira panda vermelho gigante'
   },
   {
     id: 'anim-263',
@@ -2376,7 +2376,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.8,
     poster: '👢',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Gato busca última vida'
   },
   {
     id: 'anim-264',
@@ -2385,7 +2385,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🐚',
-    description: 'Animation, Comedy, Drama'
+    description: 'Concha com sapatos busca família'
   },
   {
     id: 'anim-265',
@@ -2394,7 +2394,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🌊',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Caçadora de monstros marinhos'
   },
   {
     id: 'anim-266',
@@ -2403,7 +2403,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.1,
     poster: '🚀',
-    description: 'Animation, Action, Adventure'
+    description: 'Origem do Buzz Lightyear'
   },
   {
     id: 'anim-267',
@@ -2412,7 +2412,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '🌍',
-    description: 'Animation, Action, Adventure'
+    description: 'Família explora mundo subterrâneo'
   },
   {
     id: 'anim-268',
@@ -2421,7 +2421,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.1,
     poster: '🦸',
-    description: 'Animation, Action, Adventure'
+    description: 'Pets de super-heróis salvam donos'
   },
   {
     id: 'anim-269',
@@ -2430,7 +2430,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.5,
     poster: '🍌',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Gru jovem quer ser vilão'
   },
   {
     id: 'anim-270',
@@ -2439,7 +2439,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.8,
     poster: '🦊',
-    description: 'Animation, Action, Adventure'
+    description: 'Bandidos tentam virar mocinhos'
   },
   {
     id: 'anim-271',
@@ -2448,7 +2448,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.7,
     poster: '🕷️',
-    description: 'Animation, Action, Adventure'
+    description: 'Miles Morales em multiverso caótico'
   },
   {
     id: 'anim-272',
@@ -2457,7 +2457,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🦢',
-    description: 'Animation, Adventure, Drama'
+    description: 'Menino e garça em mundo mágico'
   },
   {
     id: 'anim-273',
@@ -2466,7 +2466,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.5,
     poster: '🗡️',
-    description: 'Animation, Action, Adventure'
+    description: 'Metamorfa ajuda cavaleiro caído'
   },
   {
     id: 'anim-274',
@@ -2475,7 +2475,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.7,
     poster: '🚪',
-    description: 'Animation, Action, Adventure'
+    description: 'Menina fecha portas místicas'
   },
   {
     id: 'anim-275',
@@ -2484,7 +2484,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.2,
     poster: '🐢',
-    description: 'Animation, Action, Adventure'
+    description: 'Tartarugas Ninja adolescentes'
   },
   {
     id: 'anim-276',
@@ -2493,7 +2493,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🔥',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Fogo e água se apaixonam'
   },
   {
     id: 'anim-277',
@@ -2502,7 +2502,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '⭐',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menina desafia rei dos desejos'
   },
   {
     id: 'anim-278',
@@ -2511,7 +2511,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6,
     poster: '🎵',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Trolls resgat am irmão sequestrado'
   },
   {
     id: 'anim-279',
@@ -2520,7 +2520,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.7,
     poster: '🦆',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Família de patos migra'
   },
   {
     id: 'anim-280',
@@ -2529,7 +2529,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.7,
     poster: '🐙',
-    description: 'Animation, Action, Adventure'
+    description: 'Adolescente descobre ser kraken'
   },
   {
     id: 'anim-281',
@@ -2538,7 +2538,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.6,
     poster: '🧠',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Riley adolescente com novas emoções'
   },
   {
     id: 'anim-282',
@@ -2547,7 +2547,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.3,
     poster: '🤖',
-    description: 'Animation, Adventure, Family'
+    description: 'Robô aprende a sobreviver na natureza'
   },
   {
     id: 'anim-283',
@@ -2556,7 +2556,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 8.1,
     poster: '🌊',
-    description: 'Animation, Adventure, Drama'
+    description: 'Gato sobrevive a enchente'
   },
   {
     id: 'anim-284',
@@ -2565,7 +2565,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.3,
     poster: '🐼',
-    description: 'Animation, Action, Adventure'
+    description: 'Po busca novo Guerreiro Dragão'
   },
   {
     id: 'anim-285',
@@ -2574,7 +2574,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7,
     poster: '🌊',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Moana em nova jornada oceânica'
   },
   {
     id: 'anim-286',
@@ -2583,7 +2583,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.9,
     poster: '🎨',
-    description: 'Animation, Adventure, Drama'
+    description: 'Amigo imaginário busca nova criança'
   },
   {
     id: 'anim-287',
@@ -2592,7 +2592,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.9,
     poster: '🐌',
-    description: 'Animation, Drama'
+    description: 'Caracol coleciona memórias'
   },
   {
     id: 'anim-288',
@@ -2601,7 +2601,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 6.4,
     poster: '🌙',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menino enfrenta medo da escuridão'
   },
   {
     id: 'anim-289',
@@ -2610,7 +2610,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 5.1,
     poster: '🐈',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Garfield sai de casa'
   },
   {
     id: 'anim-290',
@@ -2619,7 +2619,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 7.9,
     poster: '🤖',
-    description: 'Animation, Action, Adventure'
+    description: 'Origem de Optimus Prime'
   },
   {
     id: 'anim-291',
@@ -2628,7 +2628,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '🛸',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Menino confundido com líder alienígena'
   },
   {
     id: 'anim-292',
@@ -2637,7 +2637,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '🐰',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Judy e Nick em nova investigação'
   },
   {
     id: 'anim-293',
@@ -2646,7 +2646,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '🐲',
-    description: 'Action, Adventure, Family'
+    description: 'Soluço e Banguela em ação ao vivo'
   },
   {
     id: 'anim-294',
@@ -2655,7 +2655,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '💙',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Smurfs em nova aventura'
   },
   {
     id: 'anim-295',
@@ -2664,7 +2664,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '👾',
-    description: 'Adventure, Comedy, Family'
+    description: 'Lilo e Stitch em ação ao vivo'
   },
   {
     id: 'anim-296',
@@ -2673,7 +2673,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '🏠',
-    description: 'Animation, Family'
+    description: 'Gabby e gatos em aventura'
   },
   {
     id: 'anim-297',
@@ -2682,7 +2682,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '🐇',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Coelhos em aventura'
   },
   {
     id: 'anim-298',
@@ -2691,7 +2691,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '🦊',
-    description: 'Animation, Action, Adventure'
+    description: 'Bandidos em nova missão'
   },
   {
     id: 'anim-299',
@@ -2700,7 +2700,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '🧽',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Bob Esponja busca calção perdido'
   },
   {
     id: 'anim-300',
@@ -2709,7 +2709,7 @@ export const animationMovies: Movie[] = [
     category: 'animacao' as const,
     rating: 0,
     poster: '🐕',
-    description: 'Animation, Adventure, Comedy'
+    description: 'Cachorro em aventura'
   }
 ];
 
@@ -2757,7 +2757,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1996-5',
-    title: 'Phenomenon',
+    title: 'Fenômeno',
     year: 1996,
     category: 'ficcao-cientifica',
     subCategory: 'superpoderes',
@@ -2767,7 +2767,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1996-6',
-    title: 'The Arrival',
+    title: 'A Chegada',
     year: 1996,
     category: 'ficcao-cientifica',
     subCategory: 'invasao-alienigena',
@@ -2777,7 +2777,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1996-7',
-    title: 'The Island of Dr. Moreau',
+    title: 'A Ilha do Dr. Moreau',
     year: 1996,
     category: 'ficcao-cientifica',
     subCategory: 'genetica',
@@ -2797,7 +2797,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1996-9',
-    title: 'The Phantom',
+    title: 'O Fantasma',
     year: 1996,
     category: 'ficcao-cientifica',
     subCategory: 'aventura',
@@ -2807,7 +2807,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1996-10',
-    title: 'Screamers',
+    title: 'Gritos Mortais',
     year: 1996,
     category: 'ficcao-cientifica',
     subCategory: 'ia',
@@ -2859,7 +2859,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1997-5',
-    title: 'Starship Troopers',
+    title: 'Tropas Estelares',
     year: 1997,
     category: 'ficcao-cientifica',
     subCategory: 'espaco',
@@ -2869,7 +2869,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1997-6',
-    title: 'Event Horizon',
+    title: 'Horizonte Perdido',
     year: 1997,
     category: 'ficcao-cientifica',
     subCategory: 'espaco',
@@ -2889,7 +2889,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1997-8',
-    title: 'The Postman',
+    title: 'O Mensageiro do Futuro',
     year: 1997,
     category: 'ficcao-cientifica',
     subCategory: 'apocaliptico',
@@ -2941,7 +2941,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1998-3',
-    title: 'Dark City',
+    title: 'Cidade das Sombras',
     year: 1998,
     category: 'ficcao-cientifica',
     subCategory: 'distopia',
@@ -2991,7 +2991,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1998-8',
-    title: 'The X-Files: Fight the Future',
+    title: 'Arquivo X: O Filme',
     year: 1998,
     category: 'ficcao-cientifica',
     subCategory: 'alienigenas',
@@ -3001,7 +3001,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1998-9',
-    title: 'The Truman Show',
+    title: 'O Show de Truman',
     year: 1998,
     category: 'ficcao-cientifica',
     subCategory: 'distopia',
@@ -3073,7 +3073,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1999-6',
-    title: 'The Thirteenth Floor',
+    title: 'O 13º Andar',
     year: 1999,
     category: 'ficcao-cientifica',
     subCategory: 'realidade-virtual',
@@ -3083,7 +3083,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1999-7',
-    title: 'Galaxy Quest',
+    title: 'Heróis Fora de Órbita',
     year: 1999,
     category: 'ficcao-cientifica',
     subCategory: 'espaco',
@@ -3093,7 +3093,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1999-8',
-    title: 'Bicentennial Man',
+    title: 'O Homem Bicentenário',
     year: 1999,
     category: 'ficcao-cientifica',
     subCategory: 'ia',
@@ -3103,7 +3103,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1999-9',
-    title: 'Wing Commander',
+    title: 'Comandoánte',
     year: 1999,
     category: 'ficcao-cientifica',
     subCategory: 'espaco',
@@ -3113,7 +3113,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-1999-10',
-    title: 'The Iron Giant',
+    title: 'O Gigante de Ferro',
     year: 1999,
     category: 'ficcao-cientifica',
     subCategory: 'ia',
@@ -3135,7 +3135,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2000-2',
-    title: 'Frequency',
+    title: 'Frequência',
     year: 2000,
     category: 'ficcao-cientifica',
     subCategory: 'viagem-tempo',
@@ -3145,7 +3145,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2000-3',
-    title: 'Pitch Black',
+    title: 'Pitch Black - Planeta Mortal',
     year: 2000,
     category: 'ficcao-cientifica',
     subCategory: 'sobrevivencia',
@@ -3165,7 +3165,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2000-5',
-    title: 'Red Planet',
+    title: 'Planeta Vermelho',
     year: 2000,
     category: 'ficcao-cientifica',
     subCategory: 'espaco',
@@ -3175,7 +3175,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2000-6',
-    title: 'Hollow Man',
+    title: 'O Homem sem Sombra',
     year: 2000,
     category: 'ficcao-cientifica',
     subCategory: 'ciencia',
@@ -3185,7 +3185,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2000-7',
-    title: 'The 6th Day',
+    title: 'O 6º Dia',
     year: 2000,
     category: 'ficcao-cientifica',
     subCategory: 'clonagem',
@@ -3195,7 +3195,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2000-8',
-    title: 'Battlefield Earth',
+    title: 'Batalhado da Terra',
     year: 2000,
     category: 'ficcao-cientifica',
     subCategory: 'apocaliptico',
@@ -3267,7 +3267,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2001-5',
-    title: 'Vanilla Sky',
+    title: 'Baunilha Sky',
     year: 2001,
     category: 'ficcao-cientifica',
     subCategory: 'realidade-virtual',
@@ -3277,7 +3277,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2001-6',
-    title: 'Evolution',
+    title: 'Evolução',
     year: 2001,
     category: 'ficcao-cientifica',
     subCategory: 'alienigenas',
@@ -3287,7 +3287,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2001-7',
-    title: 'Ghosts of Mars',
+    title: 'Fantasmas de Marte',
     year: 2001,
     category: 'ficcao-cientifica',
     subCategory: 'espaco',
@@ -3297,7 +3297,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2001-8',
-    title: 'Impostor',
+    title: 'Impostor - A Identidade Desconhecida',
     year: 2001,
     category: 'ficcao-cientifica',
     subCategory: 'distopia',
@@ -4031,7 +4031,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2008-10',
-    title: 'Journey to the Center of the Earth',
+    title: 'Viagem ao Centro da Terra',
     year: 2008,
     category: 'ficcao-cientifica',
     subCategory: 'aventura',
@@ -4113,7 +4113,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2009-8',
-    title: 'Knowing',
+    title: 'Presságio',
     year: 2009,
     category: 'ficcao-cientifica',
     subCategory: 'catastrofe',
@@ -4133,7 +4133,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2009-10',
-    title: 'Surrogates',
+    title: 'Substitutos',
     year: 2009,
     category: 'ficcao-cientifica',
     subCategory: 'ia',
@@ -4195,7 +4195,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2010-6',
-    title: 'Scott Pilgrim vs. the World',
+    title: 'Scott Pilgrim Contra o Mundo',
     year: 2010,
     category: 'ficcao-cientifica',
     subCategory: 'fantasia',
@@ -4215,7 +4215,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2010-8',
-    title: 'The Book of Eli',
+    title: 'O Livro de Eli',
     year: 2010,
     category: 'ficcao-cientifica',
     subCategory: 'apocaliptico',
@@ -4225,23 +4225,13 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2010-9',
-    title: 'Splice',
+    title: 'A Experiência',
     year: 2010,
     category: 'ficcao-cientifica',
     subCategory: 'genetica',
     rating: 5.8,
     poster: '🧬',
     description: 'Cientistas criam híbrido humano-animal'
-  },
-  {
-    id: 'scifi-2010-10',
-    title: 'The Sorcerer\'s Apprentice',
-    year: 2010,
-    category: 'ficcao-cientifica',
-    subCategory: 'fantasia',
-    rating: 6.1,
-    poster: '🧙',
-    description: 'Aprendiz de feiticeiro em Nova York'
   },
 
   // ============= 2011 (10 filmes) =============
@@ -4297,7 +4287,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2011-6',
-    title: 'Source Code',
+    title: 'Código Fonte',
     year: 2011,
     category: 'ficcao-cientifica',
     subCategory: 'viagem-tempo',
@@ -4307,7 +4297,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2011-7',
-    title: 'Cowboys & Aliens',
+    title: 'Cowboys & Alienígenas',
     year: 2011,
     category: 'ficcao-cientifica',
     subCategory: 'invasao-alienigena',
@@ -4337,7 +4327,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2011-10',
-    title: 'Real Steel',
+    title: 'Gigantes de Aço',
     year: 2011,
     category: 'ficcao-cientifica',
     subCategory: 'ia',
@@ -4511,7 +4501,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2013-7',
-    title: 'Ender\'s Game',
+    title: 'O Jogo do Exterminador',
     year: 2013,
     category: 'ficcao-cientifica',
     subCategory: 'espaco',
@@ -4521,7 +4511,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2013-8',
-    title: 'World War Z',
+    title: 'Guerra Mundial Z',
     year: 2013,
     category: 'ficcao-cientifica',
     subCategory: 'apocaliptico',
@@ -4541,7 +4531,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2013-10',
-    title: 'The Wolverine',
+    title: 'Wolverine: Imortal',
     year: 2013,
     category: 'ficcao-cientifica',
     subCategory: 'mutantes',
@@ -4603,7 +4593,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2014-6',
-    title: 'Transcendence',
+    title: 'Transcendence: A Revolução',
     year: 2014,
     category: 'ficcao-cientifica',
     subCategory: 'ia',
@@ -4613,7 +4603,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2014-7',
-    title: 'Snowpiercer',
+    title: 'Expresso do Amanhã',
     year: 2014,
     category: 'ficcao-cientifica',
     subCategory: 'apocaliptico',
@@ -4735,7 +4725,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2015-9',
-    title: 'Tomorrowland',
+    title: 'Tomorrowland: Um Lugar Onde Nada é Impossível',
     year: 2015,
     category: 'ficcao-cientifica',
     subCategory: 'viagem-tempo',
@@ -5175,7 +5165,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2020-2',
-    title: 'The Midnight Sky',
+    title: 'O Céu da Meia-Noite',
     year: 2020,
     category: 'ficcao-cientifica',
     subCategory: 'apocaliptico',
@@ -5205,7 +5195,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2020-5',
-    title: 'The New Mutants',
+    title: 'Os Novos Mutantes',
     year: 2020,
     category: 'ficcao-cientifica',
     subCategory: 'mutantes',
@@ -5215,7 +5205,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2020-6',
-    title: 'The Invisible Man',
+    title: 'O Homem Invisível',
     year: 2020,
     category: 'ficcao-cientifica',
     subCategory: 'ciencia',
@@ -5225,7 +5215,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2020-7',
-    title: 'Love and Monsters',
+    title: 'Amor e Monstros',
     year: 2020,
     category: 'ficcao-cientifica',
     subCategory: 'apocaliptico',
@@ -5235,7 +5225,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2020-8',
-    title: 'Project Power',
+    title: 'Projeto Power',
     year: 2020,
     category: 'ficcao-cientifica',
     subCategory: 'superpoderes',
@@ -5245,7 +5235,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2020-9',
-    title: 'Underwater',
+    title: 'Abismo',
     year: 2020,
     category: 'ficcao-cientifica',
     subCategory: 'sobrevivencia',
@@ -5255,7 +5245,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2020-10',
-    title: 'The Platform',
+    title: 'A Plataforma',
     year: 2020,
     category: 'ficcao-cientifica',
     subCategory: 'distopia',
@@ -5357,7 +5347,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2021-10',
-    title: 'Free Guy',
+    title: 'Free Guy: Assumindo o Controle',
     year: 2021,
     category: 'ficcao-cientifica',
     subCategory: 'ia',
@@ -5439,7 +5429,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2022-8',
-    title: 'The Batman',
+    title: 'Batman',
     year: 2022,
     category: 'ficcao-cientifica',
     subCategory: 'herois',
@@ -5511,7 +5501,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2023-5',
-    title: 'The Creator',
+    title: 'O Criador',
     year: 2023,
     category: 'ficcao-cientifica',
     subCategory: 'ia',
@@ -5541,7 +5531,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2023-8',
-    title: 'The Marvels',
+    title: 'As Marvels',
     year: 2023,
     category: 'ficcao-cientifica',
     subCategory: 'herois',
@@ -5715,7 +5705,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2025-5',
-    title: 'The Fantastic Four: First Steps',
+    title: 'Quarteto Fantástico: Primeiros Passos',
     year: 2025,
     category: 'ficcao-cientifica',
     subCategory: 'herois',
@@ -5735,7 +5725,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2025-7',
-    title: 'Superman: Legacy',
+    title: 'Superman: Legado',
     year: 2025,
     category: 'ficcao-cientifica',
     subCategory: 'herois',
@@ -5745,7 +5735,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2025-8',
-    title: 'Sinister Six',
+    title: 'Sexteto Sinistro',
     year: 2025,
     category: 'ficcao-cientifica',
     subCategory: 'herois',
@@ -5755,7 +5745,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2025-9',
-    title: 'Project Hail Mary',
+    title: 'Projeto Ave Maria',
     year: 2025,
     category: 'ficcao-cientifica',
     subCategory: 'espaco',
@@ -5765,7 +5755,7 @@ export const sciFiMovies: Movie[] = [
   },
   {
     id: 'scifi-2025-10',
-    title: 'The Electric State',
+    title: 'O Estado Elétrico',
     year: 2025,
     category: 'ficcao-cientifica',
     subCategory: 'distopia',
