@@ -3,46 +3,25 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { allMovies, animationMovies, sciFiMovies, Movie } from '@/data/movies';
-import { Film, LogOut, Check, Filter, TrendingUp } from 'lucide-react';
+import { Film, LogOut, Check, Filter, TrendingUp, Loader2 } from 'lucide-react';
+import { useWatchedMovies } from '@/hooks/useWatchedMovies';
 
 export default function DashboardPage() {
   const router = useRouter();
-  const [watchedMovies, setWatchedMovies] = useState<Set<string>>(new Set());
+  const { watchedMovies, isLoading, isWatched, toggleWatched } = useWatchedMovies();
+
   const [selectedCategory, setSelectedCategory] = useState<'all' | 'animacao' | 'ficcao-cientifica'>('all');
   const [selectedYear, setSelectedYear] = useState<number | 'all'>('all');
   const [selectedStatus, setSelectedStatus] = useState<'all' | 'watched' | 'unwatched'>('all');
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Carregar filmes assistidos do localStorage
+  // Verificar login
   useEffect(() => {
     const isLoggedIn = localStorage.getItem('isLoggedIn');
     if (isLoggedIn !== 'true') {
       router.push('/');
-      return;
-    }
-
-    const saved = localStorage.getItem('watchedMovies');
-    if (saved) {
-      setWatchedMovies(new Set(JSON.parse(saved)));
     }
   }, [router]);
-
-  // Salvar filmes assistidos no localStorage
-  useEffect(() => {
-    if (watchedMovies.size > 0) {
-      localStorage.setItem('watchedMovies', JSON.stringify(Array.from(watchedMovies)));
-    }
-  }, [watchedMovies]);
-
-  const toggleWatched = (movieId: string) => {
-    const newWatched = new Set(watchedMovies);
-    if (newWatched.has(movieId)) {
-      newWatched.delete(movieId);
-    } else {
-      newWatched.add(movieId);
-    }
-    setWatchedMovies(newWatched);
-  };
 
   const handleLogout = () => {
     localStorage.removeItem('isLoggedIn');
@@ -62,10 +41,11 @@ export default function DashboardPage() {
     }
 
     // Filtro de status
-    if (selectedStatus === 'watched' && !watchedMovies.has(movie.id)) {
+    const movieIsWatched = isWatched(movie.id);
+    if (selectedStatus === 'watched' && !movieIsWatched) {
       return false;
     }
-    if (selectedStatus === 'unwatched' && watchedMovies.has(movie.id)) {
+    if (selectedStatus === 'unwatched' && movieIsWatched) {
       return false;
     }
 
@@ -82,11 +62,19 @@ export default function DashboardPage() {
 
   // Estatísticas
   const totalMovies = allMovies.length;
-  const watchedCount = watchedMovies.size;
+  const watchedCount = watchedMovies.length;
   const progressPercentage = (watchedCount / totalMovies) * 100;
 
-  const animationWatched = animationMovies.filter(m => watchedMovies.has(m.id)).length;
-  const sciFiWatched = sciFiMovies.filter(m => watchedMovies.has(m.id)).length;
+  const animationWatched = animationMovies.filter(m => isWatched(m.id)).length;
+  const sciFiWatched = sciFiMovies.filter(m => isWatched(m.id)).length;
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-slate-950 flex items-center justify-center">
+        <Loader2 className="w-10 h-10 text-orange-500 animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <main className="min-h-screen relative overflow-hidden bg-slate-950">
@@ -113,13 +101,21 @@ export default function DashboardPage() {
                 </div>
               </div>
 
-              <button
-                onClick={handleLogout}
-                className="flex items-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 text-gray-300 hover:text-white rounded-lg transition"
-              >
-                <LogOut className="w-4 h-4" />
-                Sair
-              </button>
+              <div className="flex items-center gap-4">
+                <button
+                  onClick={() => router.push('/watched')}
+                  className="text-sm text-gray-300 hover:text-white transition"
+                >
+                  Meus Assistidos
+                </button>
+                <button
+                  onClick={handleLogout}
+                  className="flex items-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 text-gray-300 hover:text-white rounded-lg transition"
+                >
+                  <LogOut className="w-4 h-4" />
+                  Sair
+                </button>
+              </div>
             </div>
           </div>
         </header>
@@ -228,7 +224,7 @@ export default function DashboardPage() {
 
               {filteredMovies.length > 0 && (
                 <p className="text-sm text-gray-400">
-                  {filteredMovies.filter(m => watchedMovies.has(m.id)).length} assistidos
+                  {filteredMovies.filter(m => isWatched(m.id)).length} assistidos
                 </p>
               )}
             </div>
@@ -241,20 +237,18 @@ export default function DashboardPage() {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {filteredMovies.map((movie) => {
-                  const isWatched = watchedMovies.has(movie.id);
+                  const movieIsWatched = isWatched(movie.id);
 
                   return (
                     <div
                       key={movie.id}
-                      className={`group bg-slate-900/50 backdrop-blur-sm border ${
-                        isWatched ? 'border-emerald-500/50' : 'border-slate-800'
-                      } rounded-xl p-5 transition-all duration-300 hover:border-orange-500/50 hover:shadow-lg hover:shadow-orange-500/10`}
+                      className={`group bg-slate-900/50 backdrop-blur-sm border ${movieIsWatched ? 'border-emerald-500/50' : 'border-slate-800'
+                        } rounded-xl p-5 transition-all duration-300 hover:border-orange-500/50 hover:shadow-lg hover:shadow-orange-500/10`}
                     >
                       <div className="flex items-start gap-4">
                         {/* Poster/Icon */}
-                        <div className={`flex-shrink-0 w-16 h-16 rounded-lg ${
-                          isWatched ? 'bg-gradient-to-br from-emerald-500 to-emerald-600' : 'bg-gradient-to-br from-slate-700 to-slate-800'
-                        } flex items-center justify-center text-3xl transition-colors`}>
+                        <div className={`flex-shrink-0 w-16 h-16 rounded-lg ${movieIsWatched ? 'bg-gradient-to-br from-emerald-500 to-emerald-600' : 'bg-gradient-to-br from-slate-700 to-slate-800'
+                          } flex items-center justify-center text-3xl transition-colors`}>
                           {movie.poster}
                         </div>
 
@@ -276,13 +270,12 @@ export default function DashboardPage() {
                         {/* Checkbox */}
                         <button
                           onClick={() => toggleWatched(movie.id)}
-                          className={`flex-shrink-0 w-8 h-8 rounded-lg border-2 ${
-                            isWatched
+                          className={`flex-shrink-0 w-8 h-8 rounded-lg border-2 ${movieIsWatched
                               ? 'bg-emerald-500 border-emerald-500'
                               : 'bg-transparent border-slate-600 hover:border-orange-500'
-                          } flex items-center justify-center transition-all duration-200 hover:scale-110`}
+                            } flex items-center justify-center transition-all duration-200 hover:scale-110`}
                         >
-                          {isWatched && <Check className="w-5 h-5 text-white" />}
+                          {movieIsWatched && <Check className="w-5 h-5 text-white" />}
                         </button>
                       </div>
 
